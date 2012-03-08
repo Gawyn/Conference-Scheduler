@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" foregroundRGB="255,255,255" description="" id="capa2" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledY="2120" tag="10" key="323030363130303320666F726B">
+  <children xsi:type="editmodel:ClassEditModel" name="Generadores" location="322,5090" size="292,602" id="capa2/Generadores" runTimeClassModel="TaiLoviu(Ljava.util.List;),modificat(),GenerarCongresVoras(),TrobarPosicio(Lcapa2.Comunicacio;),panDeMolde,GetInstance(),GenerarCongresBT(),BT1H([Lcapa2.Sessio;I),Estima([Lcapa2.Sessio;),BT2(),GenerarVector(),BT2H(Ljava.util.List;I),vector,BT1([Lcapa2.Sessio;),mod,Estimar2([Lcapa2.Sessio;),GenerarM(),matriu,Voras1(I),capa2.Generadores.GeneradoresHolder,Voras2(),Calcular(Lcapa2.Comunicacio;Lcapa2.Comunicacio;),Generadores(),bbto,TrobarMillor(Lcapa2.Comunicacio;),Estimar2(Ljava.util.List;),TaiLoviu([Lcapa2.Sessio;),AsignarDescans(Lcapa2.Sessio;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,80">
+      <children xsi:type="editmodel:AttributeEditModel" name="bbto" id="capa2/Generadores#bbto"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="matriu" id="capa2/Generadores#matriu"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mod" id="capa2/Generadores#mod"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panDeMolde" id="capa2/Generadores#panDeMolde"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vector" id="capa2/Generadores#vector"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="272,352">
+      <children xsi:type="editmodel:MethodEditModel" name="AsignarDescans" id="capa2/Generadores#AsignarDescans(Lcapa2.Sessio;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Estima" id="capa2/Generadores#Estima([Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Estimar2" id="capa2/Generadores#Estimar2(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BT2" id="capa2/Generadores#BT2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TaiLoviu" id="capa2/Generadores#TaiLoviu(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Calcular" id="capa2/Generadores#Calcular(Lcapa2.Comunicacio;Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BT2H" id="capa2/Generadores#BT2H(Ljava.util.List;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Estimar2" id="capa2/Generadores#Estimar2([Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BT1" id="capa2/Generadores#BT1([Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Generadores" id="capa2/Generadores#Generadores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GenerarCongresBT" id="capa2/Generadores#GenerarCongresBT()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GenerarCongresVoras" id="capa2/Generadores#GenerarCongresVoras()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GenerarM" id="capa2/Generadores#GenerarM()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GenerarVector" id="capa2/Generadores#GenerarVector()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetInstance" id="capa2/Generadores#GetInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="BT1H" id="capa2/Generadores#BT1H([Lcapa2.Sessio;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TaiLoviu" id="capa2/Generadores#TaiLoviu([Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TrobarMillor" id="capa2/Generadores#TrobarMillor(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TrobarPosicio" id="capa2/Generadores#TrobarPosicio(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Voras1" id="capa2/Generadores#Voras1(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Voras2" id="capa2/Generadores#Voras2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="modificat" id="capa2/Generadores#modificat()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,84">
+      <children xsi:type="editmodel:ClassEditModel" name="GeneradoresHolder" size="144,82" id="capa2/Generadores$GeneradoresHolder" runTimeClassModel="instance">
+        <children xsi:type="editmodel:CompartmentEditModel" size="118,16">
+          <children xsi:type="editmodel:AttributeEditModel" name="instance" id="capa2/Generadores$GeneradoresHolder#instance"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Temps" location="1520,5329" size="148,236" id="capa2/Temps" runTimeClassModel="TempsToPes(),PesToTemps(I),minuts,SetHora(I),Temps(II),ToString(),SetMinuts(I),GetMinuts(),GetHora(),hora">
+    <children xsi:type="editmodel:CompartmentEditModel" size="55,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="hora" id="capa2/Temps#hora"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="minuts" id="capa2/Temps#minuts"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,128">
+      <children xsi:type="editmodel:MethodEditModel" name="GetHora" id="capa2/Temps#GetHora()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetMinuts" id="capa2/Temps#GetMinuts()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PesToTemps" id="capa2/Temps#PesToTemps(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetHora" id="capa2/Temps#SetHora(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetMinuts" id="capa2/Temps#SetMinuts(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Temps" id="capa2/Temps#Temps(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TempsToPes" id="capa2/Temps#TempsToPes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ToString" id="capa2/Temps#ToString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.1" name="Descans" location="1430,4810" size="355,460" id="capa2/Descans" runTimeClassModel="clearInclouDescans(),ToString(),id,Descans(Ljava.lang.String;I),duracio,SetDurada(I),addInclouDescans(Lcapa2.InclouDescans;),inclouDescans,removeInclouDescans(Lcapa2.InclouDescans;),containsAllInclouDescans(Ljava.util.Collection;),setInclouDescans(Ljava.util.Collection;),SetTipus(Ljava.lang.String;),GetTipus(),GetDuracio(),GetId(),tipus,isInclouDescansEmpty(),getInclouDescans(),inclouDescansToArray(),inclouDescansToArray,SetId(I),containsInclouDescans(Lcapa2.InclouDescans;),inclouDescansIterator(),nUM,inclouDescansSize()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="64,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="duracio" id="capa2/Descans#duracio"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="capa2/Descans#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUM" id="capa2/Descans#nUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tipus" id="capa2/Descans#tipus"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,128">
+      <children xsi:type="editmodel:MethodEditModel" name="Descans" id="capa2/Descans#Descans(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetDuracio" id="capa2/Descans#GetDuracio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetId" id="capa2/Descans#GetId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTipus" id="capa2/Descans#GetTipus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetDurada" id="capa2/Descans#SetDurada(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetId" id="capa2/Descans#SetId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetTipus" id="capa2/Descans#SetTipus(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ToString" id="capa2/Descans#ToString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addInclouDescans" id="capa2/Descans#addInclouDescans(Lcapa2.InclouDescans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearInclouDescans" id="capa2/Descans#clearInclouDescans()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inclouDescansToArray" id="capa2/Descans#inclouDescansToArray"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsInclouDescans" id="capa2/Descans#containsInclouDescans(Lcapa2.InclouDescans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInclouDescans" id="capa2/Descans#getInclouDescans()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inclouDescansIterator" id="capa2/Descans#inclouDescansIterator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inclouDescansSize" id="capa2/Descans#inclouDescansSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllInclouDescans" id="capa2/Descans#containsAllInclouDescans(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="inclouDescansToArray" id="capa2/Descans#inclouDescansToArray()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isInclouDescansEmpty" id="capa2/Descans#isInclouDescansEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeInclouDescans" id="capa2/Descans#removeInclouDescans(Lcapa2.InclouDescans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setInclouDescans" id="capa2/Descans#setInclouDescans(Ljava.util.Collection;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.3" name="Autor" location="1080,5270" size="324,476" id="capa2/Autor" runTimeClassModel="GetNom(),addComunicacio(Lcapa2.Comunicacio;),comunicacioIterator(),ToString(),getComunicacio(),id,removeComunicacio(Lcapa2.Comunicacio;),cognoms,comunicacioToArray(),GetCognoms(),comunicacioSize(),clearComunicacio(),SetCognoms(Ljava.lang.String;),toString(),containsAllComunicacio(Ljava.util.Collection;),GetId(),nom,setComunicacio(Ljava.util.Collection;),isComunicacioEmpty(),SetNom(Ljava.lang.String;),Autor(Ljava.lang.String;Ljava.lang.String;),SetId(I),comunicacio,comunicacioToArray,containsComunicacio(Lcapa2.Comunicacio;),nUM">
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="cognoms" id="capa2/Autor#cognoms"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="capa2/Autor#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUM" id="capa2/Autor#nUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="capa2/Autor#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="207,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Autor" id="capa2/Autor#Autor(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetCognoms" id="capa2/Autor#GetCognoms()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetId" id="capa2/Autor#GetId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNom" id="capa2/Autor#GetNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetCognoms" id="capa2/Autor#SetCognoms(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetId" id="capa2/Autor#SetId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetNom" id="capa2/Autor#SetNom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ToString" id="capa2/Autor#ToString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addComunicacio" id="capa2/Autor#addComunicacio(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearComunicacio" id="capa2/Autor#clearComunicacio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="comunicacioIterator" id="capa2/Autor#comunicacioIterator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="comunicacioSize" id="capa2/Autor#comunicacioSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="comunicacioToArray" id="capa2/Autor#comunicacioToArray"/>
+      <children xsi:type="editmodel:MethodEditModel" name="comunicacioToArray" id="capa2/Autor#comunicacioToArray()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setComunicacio" id="capa2/Autor#setComunicacio(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsComunicacio" id="capa2/Autor#containsComunicacio(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getComunicacio" id="capa2/Autor#getComunicacio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isComunicacioEmpty" id="capa2/Autor#isComunicacioEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeComunicacio" id="capa2/Autor#removeComunicacio(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="containsAllComunicacio" id="capa2/Autor#containsAllComunicacio(Ljava.util.Collection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="capa2/Autor#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="Congres" location="1840,5190" size="214,586" id="capa2/Congres" runTimeClassModel="SetHFinal(Lcapa2.Temps;),setNumSessions(I),SetSessions(Ljava.util.List;),GetInstance(),GetSessions(),hfinal,EliminarSessio(Lcapa2.Sessio;),GetHFinal(),cxs,pes(),GetSesAr(),GetSessio(I),setCxs(I),getCxs(),GetHinici(),Congres(),InicialitzarCong(),capa2.Congres.CongresHolder,hinici,Clean(),sessions,getNumSessions(),AfegirSessio(Lcapa2.Sessio;),NumSessions(),numSessions,copy([Lcapa2.Sessio;),SetHinici(Lcapa2.Temps;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="cxs" id="capa2/Congres#cxs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hfinal" id="capa2/Congres#hfinal"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hinici" id="capa2/Congres#hinici"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numSessions" id="capa2/Congres#numSessions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sessions" id="capa2/Sessio@sessions+capa2/Congres@|capa2/Sessio#sessions"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="194,336">
+      <children xsi:type="editmodel:MethodEditModel" name="AfegirSessio" id="capa2/Congres#AfegirSessio(Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Clean" id="capa2/Congres#Clean()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Congres" id="capa2/Congres#Congres()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EliminarSessio" id="capa2/Congres#EliminarSessio(Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetHFinal" id="capa2/Congres#GetHFinal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetHinici" id="capa2/Congres#GetHinici()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetInstance" id="capa2/Congres#GetInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSesAr" id="capa2/Congres#GetSesAr()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSessio" id="capa2/Congres#GetSessio(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSessions" id="capa2/Congres#GetSessions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InicialitzarCong" id="capa2/Congres#InicialitzarCong()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumSessions" id="capa2/Congres#NumSessions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetHFinal" id="capa2/Congres#SetHFinal(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetHinici" id="capa2/Congres#SetHinici(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetSessions" id="capa2/Congres#SetSessions(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="capa2/Congres#copy([Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCxs" id="capa2/Congres#getCxs()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumSessions" id="capa2/Congres#getNumSessions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pes" id="capa2/Congres#pes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCxs" id="capa2/Congres#setCxs(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNumSessions" id="capa2/Congres#setNumSessions(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,84">
+      <children xsi:type="editmodel:ClassEditModel" name="CongresHolder" size="115,82" id="capa2/Congres$CongresHolder" runTimeClassModel="instance">
+        <children xsi:type="editmodel:CompartmentEditModel" size="95,16">
+          <children xsi:type="editmodel:AttributeEditModel" name="instance" id="capa2/Congres$CongresHolder#instance"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0" name="Sessio" location="1820,4620" size="327,540" id="capa2/Sessio" runTimeClassModel="comAS,DelActivitat(Lcapa2.Activitat;I),AddAct(Lcapa2.Activitat;I),setPerc(I),ToString(),GetLastCom(),id,GetActivitats(),GetPes(),Pertany(Lcapa2.Activitat;),Sessio(),SetPes(I),activitats,perc,pes,GetCas(),EsborrarD(I),GetPerc(),Posicio(Lcapa2.Activitat;),AddAct(ILcapa2.Activitat;I),GetId(),copy(Lcapa2.Sessio;),GetAct(I),SetActivitats(Ljava.util.List;),Clean(),SetId(I),RecalcularPercentatge(I),EsborrarC(II),nUM">
+    <children xsi:type="editmodel:CompartmentEditModel" size="59,80">
+      <children xsi:type="editmodel:AttributeEditModel" name="activitats" id="capa2/Activitat@activitats+capa2/Sessio@|capa2/Activitat#activitats"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="comAS" id="capa2/Sessio#comAS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="capa2/Sessio#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUM" id="capa2/Sessio#nUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="perc" id="capa2/Sessio#perc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pes" id="capa2/Sessio#pes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="307,368">
+      <children xsi:type="editmodel:MethodEditModel" name="AddAct" id="capa2/Sessio#AddAct(Lcapa2.Activitat;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AddAct" id="capa2/Sessio#AddAct(ILcapa2.Activitat;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Clean" id="capa2/Sessio#Clean()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DelActivitat" id="capa2/Sessio#DelActivitat(Lcapa2.Activitat;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EsborrarC" id="capa2/Sessio#EsborrarC(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EsborrarD" id="capa2/Sessio#EsborrarD(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetAct" id="capa2/Sessio#GetAct(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetActivitats" id="capa2/Sessio#GetActivitats()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetCas" id="capa2/Sessio#GetCas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetId" id="capa2/Sessio#GetId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetLastCom" id="capa2/Sessio#GetLastCom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetPerc" id="capa2/Sessio#GetPerc()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetPes" id="capa2/Sessio#GetPes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Pertany" id="capa2/Sessio#Pertany(Lcapa2.Activitat;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Posicio" id="capa2/Sessio#Posicio(Lcapa2.Activitat;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="RecalcularPercentatge" id="capa2/Sessio#RecalcularPercentatge(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Sessio" id="capa2/Sessio#Sessio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetActivitats" id="capa2/Sessio#SetActivitats(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetId" id="capa2/Sessio#SetId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetPes" id="capa2/Sessio#SetPes(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ToString" id="capa2/Sessio#ToString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="capa2/Sessio#copy(Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPerc" id="capa2/Sessio#setPerc(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Sessio@sessions+capa2/Congres@" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="sessions" location="126,540" id="capa2/Sessio@sessions+capa2/Congres@|capa2/Sessio#sessions" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - sessions" location="1953,5167" size="54,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1935,5167" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" id="capa2/Sessio@sessions+capa2/Congres@|capa2/Congres#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.2" name="CjtComunicacions" location="380,4590" size="196,474" id="capa2/CjtComunicacions" runTimeClassModel="isEmpty(),DisminuirComAssig(),AugmentarComAssig(),comAssig,DelCom(Lcapa2.Comunicacio;),CjtComunicacions(),GetInstance(),InicialitzarCJTComunicacions(),GetGorda(),getComunicacions(),GetCom(I),duradaTot,getDuradaTot(),capa2.CjtComunicacions.CjtComunicacionsHolder,comunicacions,AfegirC(Lcapa2.Comunicacio;),Clean(),GetcomAssig(),setDuradaTot(I),GetSize()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,32">
+      <children xsi:type="editmodel:AttributeEditModel" name="comAssig" id="capa2/CjtComunicacions#comAssig"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="comunicacions" id="capa2/Comunicacio@comunicacions+capa2/CjtComunicacions@|capa2/Comunicacio#comunicacions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="duradaTot" id="capa2/CjtComunicacions#duradaTot"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,256">
+      <children xsi:type="editmodel:MethodEditModel" name="AfegirC" id="capa2/CjtComunicacions#AfegirC(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AugmentarComAssig" id="capa2/CjtComunicacions#AugmentarComAssig()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CjtComunicacions" id="capa2/CjtComunicacions#CjtComunicacions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Clean" id="capa2/CjtComunicacions#Clean()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DelCom" id="capa2/CjtComunicacions#DelCom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DisminuirComAssig" id="capa2/CjtComunicacions#DisminuirComAssig()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetCom" id="capa2/CjtComunicacions#GetCom(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetGorda" id="capa2/CjtComunicacions#GetGorda()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetInstance" id="capa2/CjtComunicacions#GetInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSize" id="capa2/CjtComunicacions#GetSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetcomAssig" id="capa2/CjtComunicacions#GetcomAssig()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InicialitzarCJTComunicacions" id="capa2/CjtComunicacions#InicialitzarCJTComunicacions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getComunicacions" id="capa2/CjtComunicacions#getComunicacions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDuradaTot" id="capa2/CjtComunicacions#getDuradaTot()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isEmpty" id="capa2/CjtComunicacions#isEmpty()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDuradaTot" id="capa2/CjtComunicacions#setDuradaTot(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,84">
+      <children xsi:type="editmodel:ClassEditModel" name="CjtComunicacionsHolder" size="176,82" id="capa2/CjtComunicacions$CjtComunicacionsHolder" runTimeClassModel="instance">
+        <children xsi:type="editmodel:CompartmentEditModel" size="139,16">
+          <children xsi:type="editmodel:AttributeEditModel" name="instance" id="capa2/CjtComunicacions$CjtComunicacionsHolder#instance"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="Tema" location="590,4278" size="179,236" id="capa2/Tema" runTimeClassModel="GetNom(),GetListCom(),SetNom(Ljava.lang.String;),com,toString(),Tema(Ljava.lang.String;),RemCom(I),AfegirCom(Lcapa2.Comunicacio;),nom,GetCom(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="61,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="com" id="capa2/Comunicacio@com+capa2/Tema@|capa2/Comunicacio#com"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="capa2/Tema#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,128">
+      <children xsi:type="editmodel:MethodEditModel" name="AfegirCom" id="capa2/Tema#AfegirCom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetCom" id="capa2/Tema#GetCom(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetListCom" id="capa2/Tema#GetListCom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNom" id="capa2/Tema#GetNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="RemCom" id="capa2/Tema#RemCom(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetNom" id="capa2/Tema#SetNom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Tema" id="capa2/Tema#Tema(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="capa2/Tema#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="capa2/Tema@temes+capa2/Comunicacio@" source="//@children.7" target="//@children.10" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="temes" location="59,236" id="capa2/Tema@temes+capa2/Comunicacio@|capa2/Tema#temes" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - temes" location="602,4521" size="39,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="655,4521" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="155,0" id="capa2/Tema@temes+capa2/Comunicacio@|capa2/Comunicacio#" roleLabel="//@children.7/@sourceConnections.0/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="837,4689" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Comunicacio@com+capa2/Tema@" source="//@children.7" target="//@children.10" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,236" id="capa2/Comunicacio@com+capa2/Tema@|capa2/Tema#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="com" location="39,0" id="capa2/Comunicacio@com+capa2/Tema@|capa2/Comunicacio#com" multiplicityLabel="//@children.7/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.7/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - com" location="735,4689" size="30,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="717,4689" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Prop" location="1390,4278" size="360,444" id="capa2/Prop" runTimeClassModel="cjt,RPAD(Ljava.lang.String;CI),PS(Ljava.lang.String;),EliminarComunicacio(Lcapa2.Comunicacio;),PS(Ljava.lang.Integer;),CarregarComunicacionsDeDisc(Ljava.lang.String;),vt,AfegeixTemaAVector(Lcapa2.Tema;),LCOMToString(),eRROR_XML_FORMED,TemesToString(),DonaAutor(Ljava.lang.String;),eRROR_IO,eRROR_GENERAL,EliminarTema(I),GetLListaComunicacions(),GetTemes(),EliminarTema(Lcapa2.Tema;),LPAD(Ljava.lang.String;CI),AfegirComunicacio(Lcapa2.Comunicacio;),GuardarComunicacionsADisc(Ljava.lang.String;),ExisteixTema(Lcapa2.Tema;),SetAutorComunicacio(ILcapa2.Autor;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,64">
+      <children xsi:type="editmodel:AttributeEditModel" name="cjt" id="capa2/Prop#cjt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_GENERAL" id="capa2/Prop#eRROR_GENERAL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_IO" id="capa2/Prop#eRROR_IO"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_XML_FORMED" id="capa2/Prop#eRROR_XML_FORMED"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vt" id="capa2/Tema@vt+capa2/Prop@|capa2/Tema#vt"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="340,288">
+      <children xsi:type="editmodel:MethodEditModel" name="AfegeixTemaAVector" id="capa2/Prop#AfegeixTemaAVector(Lcapa2.Tema;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AfegirComunicacio" id="capa2/Prop#AfegirComunicacio(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CarregarComunicacionsDeDisc" id="capa2/Prop#CarregarComunicacionsDeDisc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DonaAutor" id="capa2/Prop#DonaAutor(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EliminarComunicacio" id="capa2/Prop#EliminarComunicacio(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EliminarTema" id="capa2/Prop#EliminarTema(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EliminarTema" id="capa2/Prop#EliminarTema(Lcapa2.Tema;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ExisteixTema" id="capa2/Prop#ExisteixTema(Lcapa2.Tema;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetLListaComunicacions" id="capa2/Prop#GetLListaComunicacions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTemes" id="capa2/Prop#GetTemes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GuardarComunicacionsADisc" id="capa2/Prop#GuardarComunicacionsADisc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LCOMToString" id="capa2/Prop#LCOMToString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LPAD" id="capa2/Prop#LPAD(Ljava.lang.String;CI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PS" id="capa2/Prop#PS(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PS" id="capa2/Prop#PS(Ljava.lang.Integer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="RPAD" id="capa2/Prop#RPAD(Ljava.lang.String;CI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetAutorComunicacio" id="capa2/Prop#SetAutorComunicacio(ILcapa2.Autor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TemesToString" id="capa2/Prop#TemesToString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Tema@vt+capa2/Prop@" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,117" id="capa2/Tema@vt+capa2/Prop@|capa2/Prop#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="vt" location="179,117" id="capa2/Tema@vt+capa2/Prop@|capa2/Tema#vt" multiplicityLabel="//@children.8/@sourceConnections.0/@children.2/@children.2" roleLabel="//@children.8/@sourceConnections.0/@children.2/@children.0" orderingLabel="//@children.8/@sourceConnections.0/@children.2/@children.1" scopeKind="1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - vt" location="775,4401" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="{order}" location="775,4373" size="34,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="775,4415" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="InclouDescans" location="1080,4702" size="276,540" id="capa2/InclouDescans" runTimeClassModel="SetSessio(Lcapa2.Sessio;),GetNom(),getDescans1(),copy(Lcapa2.InclouDescans;),toString(),GetAutor(),GetTipus(),descans,GetDuracio(),GetInici(),hinici,InclouDescans(Lcapa2.Temps;Lcapa2.Descans;),setHinici(Lcapa2.Temps;),InclouDescans(Lcapa2.Descans;),GetDescans(),descans1,GetSessio(),setDescans1(Lcapa2.Descans;),SetInici(Lcapa2.Temps;),se">
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,48">
+      <children xsi:type="editmodel:AttributeEditModel" name="descans" id="capa2/InclouDescans#descans"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hinici" id="capa2/InclouDescans#hinici"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="se" id="capa2/InclouDescans#se"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="230,224">
+      <children xsi:type="editmodel:MethodEditModel" name="GetAutor" id="capa2/InclouDescans#GetAutor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetDescans" id="capa2/InclouDescans#GetDescans()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetDuracio" id="capa2/InclouDescans#GetDuracio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetInici" id="capa2/InclouDescans#GetInici()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNom" id="capa2/InclouDescans#GetNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSessio" id="capa2/InclouDescans#GetSessio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTipus" id="capa2/InclouDescans#GetTipus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InclouDescans" id="capa2/InclouDescans#InclouDescans(Lcapa2.Temps;Lcapa2.Descans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InclouDescans" id="capa2/InclouDescans#InclouDescans(Lcapa2.Descans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetInici" id="capa2/InclouDescans#SetInici(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetSessio" id="capa2/InclouDescans#SetSessio(Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="capa2/InclouDescans#copy(Lcapa2.InclouDescans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescans1" id="capa2/InclouDescans#getDescans1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDescans1" id="capa2/InclouDescans#setDescans1(Lcapa2.Descans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHinici" id="capa2/InclouDescans#setHinici(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="capa2/InclouDescans#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="capa2/Activitat&lt;-capa2/InclouDescans" source="//@children.9" target="//@children.10/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Descans@descans1+capa2/InclouDescans@inclouDescans" source="//@children.9" target="//@children.2" targetEnd="//@children.9/@sourceConnections.1/@children.1" label="//@children.9/@sourceConnections.1/@children.2" sourceEnd="//@children.9/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="inclouDescans" location="276,324" id="capa2/Descans@descans1+capa2/InclouDescans@inclouDescans|capa2/InclouDescans#inclouDescans" attachSource="true" multiplicityLabel="//@children.9/@sourceConnections.1/@children.0/@children.1" roleLabel="//@children.9/@sourceConnections.1/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - inclouDescans" location="1363,5005" size="81,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1363,5033" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="descans1" location="0,216" id="capa2/Descans@descans1+capa2/InclouDescans@inclouDescans|capa2/Descans#descans1" multiplicityLabel="//@children.9/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.9/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - descans1" location="1365,5005" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1417,5033" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.10/@sourceConnections.1" name="Comunicacio" location="690,4710" size="236,956" id="capa2/Comunicacio" runTimeClassModel="GetNom(),SetSessio(Lcapa2.Sessio;),DisminuirPussy(),SetTemes(Ljava.util.List;),GetAutor(),DisminuirAssociats(),ToString(),autor,id,hInici,SetDuracio(I),temes,AfegirTema(Lcapa2.Tema;),SetInici(Lcapa2.Temps;),d,SetHInici(Lcapa2.Temps;),SetGrau(Lcapa2.Comunicacio;I),toString(),GetTipus(),Comunicacio(Ljava.lang.String;I),GetDuracio(),GetId(),nom,SetNom(Ljava.lang.String;),SetGrauNR(Lcapa2.Comunicacio;I),SetId(I),getPus(),GetGrau(Lcapa2.Comunicacio;),GetSessio(),GetTemes(),nUM,pus,GetInici(),Assignat(),duracio,Comunicacio(Ljava.lang.String;),ConteTema(Lcapa2.Tema;),SetAutor(Lcapa2.Autor;),GetTema(I),AugmentarPussy(),TemaString(),s,pussy,GetPussy(),SetPussy(I),GetNumTemes(),copy(Lcapa2.Comunicacio;),grau2,GetDescans(),AugmentarAssociats(),GetHInici(),GetCom()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,160">
+      <children xsi:type="editmodel:AttributeEditModel" name="autor" id="capa2/Comunicacio#autor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="d" id="capa2/Comunicacio#d"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="duracio" id="capa2/Comunicacio#duracio"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="grau2" id="capa2/Comunicacio@grau2+capa2/Comunicacio@|capa2/Comunicacio#grau2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hInici" id="capa2/Comunicacio#hInici"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="capa2/Comunicacio#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nUM" id="capa2/Comunicacio#nUM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="capa2/Comunicacio#nom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pus" id="capa2/Comunicacio#pus"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pussy" id="capa2/Comunicacio#pussy"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="s" id="capa2/Comunicacio#s"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="temes" id="capa2/Tema@temes+capa2/Comunicacio@|capa2/Tema#temes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="216,640">
+      <children xsi:type="editmodel:MethodEditModel" name="AfegirTema" id="capa2/Comunicacio#AfegirTema(Lcapa2.Tema;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Assignat" id="capa2/Comunicacio#Assignat()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AugmentarAssociats" id="capa2/Comunicacio#AugmentarAssociats()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AugmentarPussy" id="capa2/Comunicacio#AugmentarPussy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Comunicacio" id="capa2/Comunicacio#Comunicacio(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Comunicacio" id="capa2/Comunicacio#Comunicacio(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ConteTema" id="capa2/Comunicacio#ConteTema(Lcapa2.Tema;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DisminuirAssociats" id="capa2/Comunicacio#DisminuirAssociats()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DisminuirPussy" id="capa2/Comunicacio#DisminuirPussy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetAutor" id="capa2/Comunicacio#GetAutor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetCom" id="capa2/Comunicacio#GetCom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetDescans" id="capa2/Comunicacio#GetDescans()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetDuracio" id="capa2/Comunicacio#GetDuracio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetGrau" id="capa2/Comunicacio#GetGrau(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetHInici" id="capa2/Comunicacio#GetHInici()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetId" id="capa2/Comunicacio#GetId()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetInici" id="capa2/Comunicacio#GetInici()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNom" id="capa2/Comunicacio#GetNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNumTemes" id="capa2/Comunicacio#GetNumTemes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetPussy" id="capa2/Comunicacio#GetPussy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSessio" id="capa2/Comunicacio#GetSessio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTema" id="capa2/Comunicacio#GetTema(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTemes" id="capa2/Comunicacio#GetTemes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTipus" id="capa2/Comunicacio#GetTipus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetAutor" id="capa2/Comunicacio#SetAutor(Lcapa2.Autor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetDuracio" id="capa2/Comunicacio#SetDuracio(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetGrau" id="capa2/Comunicacio#SetGrau(Lcapa2.Comunicacio;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetGrauNR" id="capa2/Comunicacio#SetGrauNR(Lcapa2.Comunicacio;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetHInici" id="capa2/Comunicacio#SetHInici(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetId" id="capa2/Comunicacio#SetId(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetInici" id="capa2/Comunicacio#SetInici(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetNom" id="capa2/Comunicacio#SetNom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetPussy" id="capa2/Comunicacio#SetPussy(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetSessio" id="capa2/Comunicacio#SetSessio(Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TemaString" id="capa2/Comunicacio#TemaString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ToString" id="capa2/Comunicacio#ToString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="copy" id="capa2/Comunicacio#copy(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPus" id="capa2/Comunicacio#getPus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetTemes" id="capa2/Comunicacio#SetTemes(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="capa2/Comunicacio#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0" autoLocated="true" id="capa2/Activitat&lt;-capa2/Comunicacio" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,202" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Comunicacio@grau2+capa2/Comunicacio@" source="//@children.10" target="//@children.10" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="grau2" location="0,21" id="capa2/Comunicacio@grau2+capa2/Comunicacio@|capa2/Comunicacio#grau2" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.10/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - grau2" location="645,4737" size="38,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="679,4709" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0" id="capa2/Comunicacio@grau2+capa2/Comunicacio@|capa2/Comunicacio#" anchorKind="FixedAtEdge" roleLabel="//@children.10/@sourceConnections.1/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="703,4689" size="0,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Comunicacio@comunicacions+capa2/CjtComunicacions@" source="//@children.10" target="//@children.6" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="comunicacions" location="0,176" id="capa2/Comunicacio@comunicacions+capa2/CjtComunicacions@|capa2/Comunicacio#comunicacions" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.10/@sourceConnections.2/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - comunicacions" location="601,4865" size="82,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="679,4893" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="196,296" id="capa2/Comunicacio@comunicacions+capa2/CjtComunicacions@|capa2/CjtComunicacions#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" name="autor de" autoLocated="true" id="capa2/Autor@autor1+capa2/Comunicacio@comunicacio" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.3/@children.1" label="//@children.10/@sourceConnections.3/@children.2" sourceEnd="//@children.10/@sourceConnections.3/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" name="comunicacio" location="236,758" id="capa2/Autor@autor1+capa2/Comunicacio@comunicacio|capa2/Comunicacio#comunicacio" attachSource="true" multiplicityLabel="//@children.10/@sourceConnections.3/@children.0/@children.1" roleLabel="//@children.10/@sourceConnections.3/@children.0/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - comunicacio" location="933,5447" size="70,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="933,5475" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="autor1" location="0,198" id="capa2/Autor@autor1+capa2/Comunicacio@comunicacio|capa2/Autor#autor1"/>
+      <children xsi:type="editmodel:WireLabelEditModel" name="autor de" size="40,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.10/@sourceConnections.0" name="Activitat" location="960,4400" size="148,202" id="capa2/Activitat" runTimeClassModel="SetSessio(Lcapa2.Sessio;),toString(),GetTipus(),GetDuracio(),GetSessio(),GetInici(),SetInici(Lcapa2.Temps;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,112">
+      <children xsi:type="editmodel:MethodEditModel" name="GetDuracio" id="capa2/Activitat#GetDuracio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetInici" id="capa2/Activitat#GetInici()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetSessio" id="capa2/Activitat#GetSessio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetTipus" id="capa2/Activitat#GetTipus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetInici" id="capa2/Activitat#SetInici(Lcapa2.Temps;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetSessio" id="capa2/Activitat#SetSessio(Lcapa2.Sessio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="capa2/Activitat#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="capa2/Activitat@activitats+capa2/Sessio@" source="//@children.11" target="//@children.5" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="activitats" location="148,192" id="capa2/Activitat@activitats+capa2/Sessio@|capa2/Activitat#activitats" attachSource="true" multiplicityLabel="//@children.11/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.11/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - activitats" location="1115,4571" size="53,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="1115,4599" size="4,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" id="capa2/Activitat@activitats+capa2/Sessio@|capa2/Sessio#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/org/jdom/adapters"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-11T17:42:35.281925Z"
+   kind="dir"
+   name=""
+   committed-rev="686"/>
+<entry
+   checksum="85cb27ba366df35e1253425607db9d4b"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="AbstractDOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="0b2ea6c925fb78e4b1d672c76c9309d8"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="CrimsonDOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="a0e506fa85f3144f35b686ddf041bf6f"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="5442b580586ed7b7dbd58b9815196cba"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JAXPDOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="9362345c58b2f0193636b30bfecf0071"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="OracleV1DOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="3a35f64aae90893797b585b7a2870315"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="OracleV2DOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="d2e2af8d4f6ddc659f2daac9a41d96a3"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="XML4JDOMAdapter.java"
+   committed-rev="624"/>
+<entry
+   checksum="5de8e814bfce4b9c9277ea2a23881120"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="XercesDOMAdapter.java"
+   committed-rev="624"/>
+</wc-entries>

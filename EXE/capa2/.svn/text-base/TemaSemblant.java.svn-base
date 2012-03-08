@@ -1,0 +1,48 @@
+package capa2;
+
+
+/*
+ * Nocal
+ */
+
+public class TemaSemblant {
+	Tema a;
+	Tema b;
+	int grau;
+	
+	public TemaSemblant(Tema a,Tema b, int grau)
+	{
+		this.a=a;
+		this.b=b;
+		this.grau=grau;
+	}
+	
+	public Tema GetComp(Tema c)
+	{
+		/*
+		 * Funcio que retorna el company de la relacio
+		 * de dos temes.
+		 */
+		Tema r;
+		
+		if(a==c)
+		{
+			r=b;
+		}else if(b==c){
+			r=a;
+		}else{
+			r=null;
+		}
+		
+		return r;
+	}
+
+	public int GetGrau() {
+		return grau;
+	}
+
+	public void SetGrau(int grau) {
+		this.grau = grau;
+	}
+	
+}

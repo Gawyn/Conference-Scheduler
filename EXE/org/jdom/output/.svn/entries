@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/org/jdom/output"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-11T17:42:35.281925Z"
+   kind="dir"
+   name=""
+   committed-rev="686"/>
+<entry
+   checksum="a5583d4be1fde5d4ea2daee267e9ca7a"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DOMOutputter.java"
+   committed-rev="624"/>
+<entry
+   checksum="024e4ee62832c54b88c0e572837dea41"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="EscapeStrategy.java"
+   committed-rev="624"/>
+<entry
+   checksum="94c5209487b778c8b523377590e074f2"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Format.java"
+   committed-rev="624"/>
+<entry
+   checksum="3cb83aaea75cd9d0208b43704de96462"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JDOMLocator.java"
+   committed-rev="624"/>
+<entry
+   checksum="ba2d7b0edfc33a3ea551741427bcad12"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="NamespaceStack.java"
+   committed-rev="624"/>
+<entry
+   checksum="95990b15a2e434d2d1f75027b57aaa89"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="SAXOutputter.java"
+   committed-rev="624"/>
+<entry
+   checksum="0248189b422781b525fda98590acdf44"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="XMLOutputter.java"
+   committed-rev="624"/>
+</wc-entries>

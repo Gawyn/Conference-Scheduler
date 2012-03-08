@@ -1,0 +1,29 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\EXE\capa2
+
+15/12/2006  18:54    <DIR>          .
+15/12/2006  18:54    <DIR>          ..
+15/12/2006  15:08               347 Activitat.class
+15/12/2006  15:08             1.415 Autor.class
+15/12/2006  01:54            70.770 capa2.ucd
+15/12/2006  15:08               674 CjtComunicacions$CjtComunicacionsHolder.class
+15/12/2006  15:08             3.084 CjtComunicacions.class
+15/12/2006  15:08             6.788 Comunicacio.class
+15/12/2006  18:28               326 ComunicacioPer.class
+15/12/2006  15:08               584 Congres$CongresHolder.class
+15/12/2006  15:08             3.901 Congres.class
+15/12/2006  15:08             1.436 ControladorDomini.class
+15/12/2006  15:08             1.390 Descans.class
+15/12/2006  18:28               624 Generadores$GeneradoresHolder.class
+15/12/2006  18:28            11.257 Generadores.class
+15/12/2006  15:08             2.124 InclouDescans.class
+15/12/2006  18:54                 0 index.txt
+15/12/2006  15:18             8.418 Prop.class
+15/12/2006  16:45             5.693 Sessio.class
+15/12/2006  15:08             1.885 Tema.class
+15/12/2006  15:08               822 TemaSemblant.class
+15/12/2006  15:22             1.746 Temps.class
+              20 archivos        123.284 bytes
+               2 dirs   1.352.015.872 bytes libres

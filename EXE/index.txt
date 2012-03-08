@@ -1,0 +1,17 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\EXE
+
+15/12/2006  18:54    <DIR>          .
+15/12/2006  18:54    <DIR>          ..
+15/12/2006  18:48    <DIR>          capa1
+15/12/2006  18:48    <DIR>          capa2
+15/12/2006  18:48    <DIR>          capa3
+15/12/2006  18:28               525 Executable.class
+15/12/2006  18:54                 0 index.txt
+15/12/2006  18:48    <DIR>          org
+15/12/2006  18:48    <DIR>          proves2
+15/12/2006  15:08             1.465 Test.class
+               3 archivos          1.990 bytes
+               7 dirs   1.352.024.064 bytes libres

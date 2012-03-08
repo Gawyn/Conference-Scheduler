@@ -1,0 +1,25 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\EXE\proves2
+
+15/12/2006  18:55    <DIR>          .
+15/12/2006  18:55    <DIR>          ..
+15/12/2006  18:55                 0 index.txt
+15/12/2006  15:39             1.059 ProvaActivitat.class
+15/12/2006  15:07             2.654 ProvaAutor.class
+15/12/2006  15:07               999 ProvaCjtComunicacions.class
+15/12/2006  15:22             1.789 ProvaComunicacio.class
+15/12/2006  15:22             1.580 ProvaCongres.class
+15/12/2006  15:07             2.879 ProvaDescans.class
+15/12/2006  15:07               683 ProvaGeneradores.class
+15/12/2006  15:07               698 ProvaLlegirComunicacionsEntrada.class
+15/12/2006  15:07             2.067 ProvaProp.class
+15/12/2006  15:39             1.415 ProvaSessio.class
+15/12/2006  15:07             1.404 ProvaTema.class
+15/12/2006  15:22             2.992 ProvaTemps.class
+15/12/2006  15:07               708 ProvaTxTGestorDades.class
+15/12/2006  15:07               682 ProvaTXTLlegirComunicacions.class
+15/12/2006  15:07             2.882 ProvaXML.class
+              16 archivos         24.491 bytes
+               2 dirs   1.352.007.680 bytes libres

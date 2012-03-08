@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+  <comunicacio titol="Paleontologia 2" duracio="60">
+    <autor nom="Joan" cognoms="Vila" />
+    <temes>
+      <tema nom="Paleontologia" />
+    </temes>
+    <assignacio sessio="11" hora="10" minuts="0" />
+  </comunicacio>
+  <descans nom="Semi Break" duracio="20">
+    <assignacio sessio="11" hora="11" minuts="0" />
+  </descans>
+  <comunicacio titol="Paleontologia 1" duracio="45">
+    <autor nom="Joan" cognoms="Vila" />
+    <temes>
+      <tema nom="Paleontologia" />
+    </temes>
+    <assignacio sessio="11" hora="11" minuts="20" />
+  </comunicacio>
+  <comunicacio titol="Arqueologia 2" duracio="60">
+    <autor nom="Eduard" cognoms="Lissart" />
+    <temes>
+      <tema nom="Arqueologia" />
+    </temes>
+    <assignacio sessio="12" hora="10" minuts="0" />
+  </comunicacio>
+  <descans nom="Semi Break" duracio="20">
+    <assignacio sessio="12" hora="11" minuts="0" />
+  </descans>
+  <comunicacio titol="Arqueologia" duracio="45">
+    <autor nom="Eduard" cognoms="Lissart" />
+    <temes>
+      <tema nom="Arqueologia" />
+    </temes>
+    <assignacio sessio="12" hora="11" minuts="20" />
+  </comunicacio>
+</horari>
+

@@ -1,0 +1,304 @@
+/* PRACTICA PROP CLUSTER 6.1
+ * ===================================
+ * Enunciat 1: Generador d'horaris  ==
+ * ===================================
+ * 
+ * Rosina Garcia 
+ * Clemente Tort
+ * Cristian Planas
+ * Oscar Camacho
+ * © 2006. 
+ * 
+ */
+//Implementat per Cristian Planas
+package capa1;
+
+import capa2.*;
+import javax.swing.JFrame;
+import java.util.*;
+
+import javax.swing.JButton;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+
+import java.awt.Rectangle;
+import java.awt.event.WindowEvent;
+import javax.swing.DefaultListModel;
+
+import javax.swing.JLabel;
+
+// TODO: Auto-generated Javadoc
+
+/**
+ * The Class VInterCom1.
+ */
+public class VRelcom extends JFrame {
+
+	/** The Constant serialVersionUID. */
+	private static final long serialVersionUID = 1L;
+
+	/** The j list. */
+	private JList jList = null;
+
+	/** The j label. */
+	private JLabel jLabel = null;
+
+	/** The Aceptar. */
+	private JButton Aceptar = null;
+
+	/** The Cancelar. */
+	private JButton Cancelar = null;
+
+	/** The j scroll pane. */
+	private JScrollPane jScrollPane = null;
+
+	private JScrollPane jScrollPane2 = null;
+
+	private JScrollPane jScrollPane3 = null;
+
+	private JList jList2 = null;
+
+	private JList jList3 = null;
+
+	ControladorVistes cv = new ControladorVistes();
+
+	/**
+	 * The Constructor.
+	 */
+	public VRelcom(String title) {
+		initialize(title);
+	}
+
+	/**
+	 * Initialize.
+	 */
+	private void initialize(String title) {
+		this.setTitle(title);
+		jLabel = new JLabel();
+		jLabel.setBounds(new Rectangle(430, 27, 280, 25));
+		if (title == "Relacionar comunicacions") {
+			jLabel.setText("Seleccioni les comunicacions i el grau de relació");
+		} else {
+			jLabel.setText("Seleccioni les comunicacions");
+			jLabel.setBounds(new Rectangle(480, 27, 280, 25));
+		}
+		this.setLayout(null);
+		this.setSize(1130, 800);
+		this.add(jLabel, null);
+		this.add(getJScrollPane(), null);
+		this.add(getJScrollPane2(), null);
+		if (title == "Relacionar comunicacions") {
+			this.add(getJScrollPane3(), null);
+		}
+		this.add(getAceptar(), null);
+		this.add(getCancelar(), null);
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+	}
+
+	/**
+	 * Gets the J scroll pane.
+	 * 
+	 * @return the J scroll pane
+	 */
+	private JScrollPane getJScrollPane() {
+		if (jScrollPane == null) {
+			jScrollPane = new JScrollPane(getJList());
+			jScrollPane.setBounds(new Rectangle(40, 55, 400, 500));
+		}
+		return jScrollPane;
+	}
+
+	private JScrollPane getJScrollPane2() {
+		if (jScrollPane2 == null) {
+			jScrollPane2 = new JScrollPane(getJList2());
+			jScrollPane2.setBounds(new Rectangle(690, 55, 400, 500));
+		}
+		return jScrollPane2;
+	}
+
+	private JScrollPane getJScrollPane3() {
+		if (jScrollPane3 == null) {
+			jScrollPane3 = new JScrollPane(getJList3());
+			jScrollPane3.setBounds(new Rectangle(460, 55, 210, 90));
+		}
+		return jScrollPane3;
+	}
+
+	/**
+	 * Gets the J list.
+	 * 
+	 * @return the J list
+	 */
+	private JList getJList() {
+		if (jList == null) {
+			DefaultListModel model = new DefaultListModel();
+			jList = new JList(model);
+			jList.setBounds(new Rectangle(84, 92, 274, 149));
+			if (gettitle() == "Intercanviar comunicacions") {
+				Vector<Activitat> acts = cv.Getacts();
+				int N = acts.size();
+				int i = 0;
+				while (i < N) {
+					model.addElement(acts.get(i));
+					i++;
+				}
+			} else {
+				List<Comunicacio> coms = cv.LlistaCom();
+				int N = coms.size();
+				int i = 0;
+				while (i < N) {
+					model.addElement(coms.get(i));
+					i++;
+				}
+			}
+
+		}
+		return jList;
+	}
+
+	private JList getJList2() {
+		if (jList2 == null) {
+			DefaultListModel model = new DefaultListModel();
+			jList2 = new JList(model);
+			jList2.setBounds(new Rectangle(84, 92, 274, 149));
+			if (gettitle() == "Intercanviar comunicacions") {
+				Vector<Activitat> acts = cv.Getacts();
+				int N = acts.size();
+				int i = 0;
+				while (i < N) {
+					model.addElement(acts.get(i));
+					i++;
+				}
+			} else {
+				List<Comunicacio> coms = cv.LlistaCom();
+				int N = coms.size();
+				int i = 0;
+				while (i < N) {
+					model.addElement(coms.get(i));
+					i++;
+				}
+			}
+
+		}
+		return jList2;
+	}
+
+	private JList getJList3() {
+		if (jList3 == null) {
+			DefaultListModel model = new DefaultListModel();
+			jList3 = new JList(model);
+			jList3.setBounds(new Rectangle(84, 92, 274, 149));
+			model.addElement("Molta relació");
+			model.addElement("Poca relació (per defecte)");
+			model.addElement("Gens de relació");
+		}
+		return jList3;
+	}
+
+	/**
+	 * Gets the aceptar.
+	 * 
+	 * @return the aceptar
+	 */
+	private JButton getAceptar() {
+		if (Aceptar == null) {
+			Aceptar = new JButton();
+			Aceptar.setBounds(new Rectangle(340, 600, 100, 33));
+			Aceptar.setText("Aceptar");
+			Aceptar.addActionListener(new java.awt.event.ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					if (gettitle() == "Veure relació entre dues comunicacions") {
+						Comunicacio tron = null;
+						Comunicacio llamp = null;
+						tron = (Comunicacio) jList.getSelectedValue();
+						llamp = (Comunicacio) jList2.getSelectedValue();
+						if (tron == null || llamp == null) {
+							cv.VMissatge("Error en la selecció");
+						} else {
+							int r = cv.getgrau(tron, llamp);
+							if (r == 0) {
+								cv.VMissatge("Gens de relació");
+							} else if (r == 2) {
+								cv.VMissatge("Molta relació");
+							} else {
+								cv.VMissatge("Poca relació (per defecte)");
+							}
+						}
+					} else if (gettitle() == "Intercanviar comunicacions") {
+						Activitat tron = (Activitat) jList.getSelectedValue();
+						Activitat llamp = (Activitat) jList2.getSelectedValue();
+						if (tron == null || llamp == null) {
+							cv.VMissatge("Error en la selecció");
+						} else {
+							cv.CanviarActivitats(tron, llamp);
+							cv.CarCong("Generar congrès");
+							cierrate();
+						}
+					} else {
+						int x = 1;
+						Comunicacio tron = (Comunicacio) jList
+								.getSelectedValue();
+						Comunicacio llamp = (Comunicacio) jList2
+								.getSelectedValue();
+						String abriel = (String) jList3.getSelectedValue();
+						if (abriel == "Molta relació") {
+							x = 2;
+						} else if (abriel == "Poca relació (per defecte)") {
+							x = 1;
+						} else if (abriel == "Gens de relació") {
+							x = 0;
+						}
+						if (tron == null || llamp == null || abriel == null) {
+							cv.VMissatge("Error");
+						} else {
+							cv.SetGrau(tron, llamp, x);
+							cierrate();
+						}
+					}
+				}
+			});
+		}
+		return Aceptar;
+	}
+
+	/**
+	 * Gets the cancelar.
+	 * 
+	 * @return the cancelar
+	 */
+	private JButton getCancelar() {
+		if (Cancelar == null) {
+			Cancelar = new JButton();
+			Cancelar.setBounds(new Rectangle(690, 600, 100, 33));
+			Cancelar.setText("Cancelar");
+			Cancelar.addActionListener(new java.awt.event.ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					cierrate();
+				}
+			});
+		}
+		return Cancelar;
+	}
+
+	/**
+	 * Cierrate.
+	 */
+	public void cierrate() {
+		this.dispose();
+	}
+
+	/**
+	 * Window closing.
+	 * 
+	 * @param e
+	 *            the e
+	 */
+	public void windowClosing(WindowEvent e) {
+		cierrate();
+	}
+
+	public String gettitle() {
+		return this.getTitle();
+	}
+
+} // @jve:decl-index=0:visual-constraint="10,10"

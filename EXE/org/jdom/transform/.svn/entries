@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/org/jdom/transform"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-11T17:42:35.281925Z"
+   kind="dir"
+   name=""
+   committed-rev="686"/>
+<entry
+   checksum="c1f2af0861ddd5eea005a01b18a2cf1a"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JDOMResult.java"
+   committed-rev="624"/>
+<entry
+   checksum="a7e5d048ceee1be23abebd45acaf98eb"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JDOMSource.java"
+   committed-rev="624"/>
+<entry
+   checksum="e03d675c68d1456688865bf737054729"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="XSLTransformException.java"
+   committed-rev="624"/>
+<entry
+   checksum="863a3f5f1d8064cfa011dbb3c9ace830"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="XSLTransformer.java"
+   committed-rev="624"/>
+</wc-entries>

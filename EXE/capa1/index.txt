@@ -1,0 +1,43 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\EXE\capa1
+
+15/12/2006  18:54    <DIR>          .
+15/12/2006  18:54    <DIR>          ..
+15/12/2006  01:53            64.621 capa1.ucd
+15/12/2006  18:29             1.382 CarCong$1.class
+15/12/2006  18:29             1.101 CarCong$2.class
+15/12/2006  18:29             5.511 CarCong.class
+15/12/2006  18:29            10.787 ControladorDomini.class
+15/12/2006  15:08             1.716 Dialegs.class
+15/12/2006  18:54                 0 index.txt
+15/12/2006  15:08               522 Prova.class
+15/12/2006  18:29             1.637 VCrearAutor$1.class
+15/12/2006  18:29               873 VCrearAutor$2.class
+15/12/2006  18:29             3.539 VCrearAutor.class
+15/12/2006  18:29             1.715 VCrearCom$1.class
+15/12/2006  18:29               695 VCrearCom$2.class
+15/12/2006  18:29             3.314 VCrearCom.class
+15/12/2006  18:29             1.621 VCrearTema$1.class
+15/12/2006  18:29               701 VCrearTema$2.class
+15/12/2006  18:29             3.109 VCrearTema.class
+15/12/2006  18:34             3.457 VentanaMenu$OyenteMen£.class
+15/12/2006  18:34             1.912 VentanaMenu$VentanamenuWindowListener.class
+15/12/2006  18:34             3.842 VentanaMenu.class
+15/12/2006  18:29             2.747 VGenCongres1$1.class
+15/12/2006  18:29               713 VGenCongres1$2.class
+15/12/2006  18:29             4.803 VGenCongres1.class
+15/12/2006  16:45             3.320 VLista$1.class
+15/12/2006  16:45               677 VLista$2.class
+15/12/2006  16:45               978 VLista$3.class
+15/12/2006  16:45               942 VLista$4.class
+15/12/2006  16:45             4.919 VLista.class
+15/12/2006  16:06               860 VMissatge$1.class
+15/12/2006  16:06             2.955 VMissatge.class
+15/12/2006  16:45             2.405 VRelcom$1.class
+15/12/2006  16:45               683 VRelcom$2.class
+15/12/2006  16:45             5.350 VRelcom.class
+15/12/2006  15:08             3.141 VTemes.class
+              34 archivos        146.548 bytes
+               2 dirs   1.352.019.968 bytes libres

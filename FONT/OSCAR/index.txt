@@ -1,0 +1,21 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\FONT\OSCAR
+
+15/12/2006  18:55    <DIR>          .
+15/12/2006  18:55    <DIR>          ..
+14/12/2006  17:26             1.141 Activitat.java
+15/12/2006  00:53           357.893 capa3.jpg
+15/12/2006  15:15             2.721 ControladorDades.java
+12/12/2006  20:23             3.196 Fitxer.java
+14/12/2006  16:03               990 GestorDiscConstants.java
+15/12/2006  13:53             2.572 InclouDescans.java
+15/12/2006  18:55                 0 index.txt
+15/12/2006  15:18            13.162 Prop.java
+15/12/2006  15:22             1.966 Temps.java
+15/12/2006  15:20             1.940 TractamentTXT.java
+15/12/2006  16:25            13.985 TractamentXML.java
+14/12/2006  19:46               428 XmlSimpleExtended.java
+              12 archivos        399.994 bytes
+               2 dirs   1.351.999.488 bytes libres

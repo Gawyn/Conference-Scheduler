@@ -1,0 +1,11 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\NORM
+
+15/12/2006  18:57    <DIR>          .
+15/12/2006  18:57    <DIR>          ..
+15/12/2006  18:57                 0 index.txt
+17/11/2006  20:32            37.888 Normes de programaci¢.doc
+               2 archivos         37.888 bytes
+               2 dirs   1.351.958.528 bytes libres

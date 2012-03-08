@@ -1,0 +1,14 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\FONT\ROSINA
+
+15/12/2006  18:55    <DIR>          .
+15/12/2006  18:55    <DIR>          ..
+15/12/2006  15:06             8.970 Comunicacio.java
+12/12/2006  19:09             1.746 Descans.java
+15/12/2006  18:27            20.146 Generadores.java
+15/12/2006  18:55                 0 index.txt
+15/12/2006  16:39             7.537 Sessio.java
+               5 archivos         38.399 bytes
+               2 dirs   1.352.003.584 bytes libres

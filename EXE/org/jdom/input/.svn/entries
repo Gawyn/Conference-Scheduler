@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/org/jdom/input"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-11T17:42:35.281925Z"
+   kind="dir"
+   name=""
+   committed-rev="686"/>
+<entry
+   checksum="ff32530e82994c00b78077e49586673b"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="BuilderErrorHandler.java"
+   committed-rev="624"/>
+<entry
+   checksum="5682984fc980cf1988492ce119b25a74"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DOMBuilder.java"
+   committed-rev="624"/>
+<entry
+   checksum="01c6d562c30eaf88c123aec62f7c39c4"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JAXPParserFactory.java"
+   committed-rev="624"/>
+<entry
+   checksum="1d08f80fa5f2ae8e589ae2ba17e22bd8"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JDOMParseException.java"
+   committed-rev="624"/>
+<entry
+   checksum="f0824adce9645241d0237fbe148e9473"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="SAXBuilder.java"
+   committed-rev="624"/>
+<entry
+   checksum="dff8fc7be6e4b4dbcc449f5a602b472b"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="SAXHandler.java"
+   committed-rev="624"/>
+<entry
+   checksum="38ece641f64d5fb1d9b6bc199a8c6b38"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="TextBuffer.java"
+   committed-rev="624"/>
+</wc-entries>

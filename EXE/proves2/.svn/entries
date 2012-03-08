@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   revision="984"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/proves2"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   name=""
+   kind="dir"
+   committed-rev="952"/>
+<entry
+   checksum="1dfc94a64641233ff5ec2dd2303c3a25"
+   last-author="d8836230"
+   text-time="2006-12-15T12:20:22.622000Z"
+   committed-date="2006-12-15T12:20:22.622225Z"
+   kind="file"
+   name="ProvaActivitat.java"
+   committed-rev="949"/>
+<entry
+   checksum="8363057012af777b56f1594484aaacda"
+   last-author="d8836230"
+   prop-time="2006-12-11T17:48:28.598000Z"
+   text-time="2006-12-15T12:20:22.622000Z"
+   committed-date="2006-12-15T12:20:22.622225Z"
+   kind="file"
+   name="ProvaAutor.java"
+   committed-rev="949"/>
+<entry
+   checksum="afecd446da8d9d089dfb2708a9b7dcd4"
+   last-author="d8836230"
+   text-time="2006-12-15T12:22:50.184000Z"
+   committed-date="2006-12-15T12:22:50.184428Z"
+   kind="file"
+   name="ProvaCjtComunicacions.java"
+   committed-rev="951"/>
+<entry
+   checksum="605701a9b1b5c6e304dad8bfab2e6b6c"
+   last-author="d8836230"
+   text-time="2006-12-15T12:22:50.184000Z"
+   committed-date="2006-12-15T12:22:50.184428Z"
+   kind="file"
+   name="ProvaComunicacio.java"
+   committed-rev="951"/>
+<entry
+   checksum="7f2f3ce058d53dfdd3b28dcc1f31479b"
+   last-author="d8836230"
+   text-time="2006-12-15T12:22:50.184000Z"
+   committed-date="2006-12-15T12:22:50.184428Z"
+   kind="file"
+   name="ProvaCongres.java"
+   committed-rev="951"/>
+<entry
+   checksum="ffb06e4b360b34339b4644ff7ae45191"
+   last-author="d8836230"
+   text-time="2006-12-15T12:22:50.184000Z"
+   committed-date="2006-12-15T12:22:50.184428Z"
+   kind="file"
+   name="ProvaDescans.java"
+   committed-rev="951"/>
+<entry
+   checksum="7af82d8dae6a0676ba66161877633eb0"
+   last-author="d8836230"
+   text-time="2006-12-15T12:22:50.184000Z"
+   committed-date="2006-12-15T12:22:50.184428Z"
+   kind="file"
+   name="ProvaGeneradores.java"
+   committed-rev="951"/>
+<entry
+   checksum="b749994a521e2950ada8734c5e19adff"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaLlegirComunicacionsEntrada.java"
+   committed-rev="952"/>
+<entry
+   checksum="a54c8799b9cc2ef19124f4eb553ad162"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaProp.java"
+   committed-rev="952"/>
+<entry
+   checksum="4dcacb7689bad429566d8b181afeff8a"
+   last-author="d8836230"
+   prop-time="2006-12-11T17:48:28.698000Z"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaSessio.java"
+   committed-rev="952"/>
+<entry
+   checksum="07a176fe9c83fa9933e0e073d1086e76"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaTXTLlegirComunicacions.java"
+   committed-rev="952"/>
+<entry
+   checksum="ff03a29a37626f91faabf4fd3cc1776e"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaTema.java"
+   committed-rev="952"/>
+<entry
+   checksum="e1ee3051109c5bb9430254abfef0461c"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaTemps.java"
+   committed-rev="952"/>
+<entry
+   checksum="90d6c06c78999b2a20f7abf36a734c67"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaTxTGestorDades.java"
+   committed-rev="952"/>
+<entry
+   checksum="c1dc879a5fdc1c3659e77a8a61027512"
+   last-author="d8836230"
+   text-time="2006-12-15T12:24:03.579000Z"
+   committed-date="2006-12-15T12:24:03.579817Z"
+   kind="file"
+   name="ProvaXML.java"
+   committed-rev="952"/>
+</wc-entries>

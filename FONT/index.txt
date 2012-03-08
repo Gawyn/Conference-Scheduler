@@ -1,0 +1,17 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\FONT
+
+15/12/2006  18:55    <DIR>          .
+15/12/2006  18:55    <DIR>          ..
+15/12/2006  18:48    <DIR>          CLEMENTE
+15/12/2006  18:48    <DIR>          COMU
+15/12/2006  18:48    <DIR>          CRISTIAN
+15/12/2006  18:55                 0 index.txt
+15/12/2006  18:48    <DIR>          javadoc
+15/12/2006  18:48    <DIR>          Jocs de proves
+15/12/2006  18:48    <DIR>          OSCAR
+15/12/2006  18:48    <DIR>          ROSINA
+               1 archivos              0 bytes
+               9 dirs   1.352.007.680 bytes libres

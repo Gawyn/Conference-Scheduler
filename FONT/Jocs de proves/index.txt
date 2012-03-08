@@ -1,0 +1,30 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\FONT\Jocs de proves
+
+15/12/2006  18:56    <DIR>          .
+15/12/2006  18:56    <DIR>          ..
+12/12/2006  20:53             1.652 congres-20.jp
+15/12/2006  18:56                 0 index.txt
+15/12/2006  18:44               381 JocProva1.jp
+15/12/2006  18:44             1.163 JocProva2.xml
+15/12/2006  18:44               381 JocProva3.jp
+14/12/2006  19:52               785 JocProva4.xml
+15/12/2006  13:20             6.770 ProvaActivitat.java
+15/12/2006  13:20             3.235 ProvaAutor.java
+15/12/2006  13:22             4.402 ProvaCjtComunicacions.java
+15/12/2006  13:22             8.152 ProvaComunicacio.java
+15/12/2006  13:22             7.403 ProvaCongres.java
+15/12/2006  13:22             3.363 ProvaDescans.java
+15/12/2006  13:22             3.102 ProvaGeneradores.java
+15/12/2006  13:24               748 ProvaLlegirComunicacionsEntrada.java
+15/12/2006  13:24             2.450 ProvaProp.java
+15/12/2006  13:24             5.306 ProvaSessio.java
+15/12/2006  13:24             6.190 ProvaTema.java
+15/12/2006  13:24             3.908 ProvaTemps.java
+15/12/2006  13:24               740 ProvaTxTGestorDades.java
+15/12/2006  13:24               772 ProvaTXTLlegirComunicacions.java
+15/12/2006  13:24             2.153 ProvaXML.java
+              21 archivos         63.056 bytes
+               2 dirs   1.351.995.392 bytes libres

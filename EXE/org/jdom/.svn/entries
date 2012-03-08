@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/org/jdom"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-11T17:42:35.281925Z"
+   kind="dir"
+   name=""
+   committed-rev="686"/>
+<entry
+   checksum="50ba6a873aa565309ad54e3bedb48811"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Attribute.java"
+   committed-rev="624"/>
+<entry
+   checksum="fde15d7854758372964ef09ab6b3c1ee"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="AttributeList.java"
+   committed-rev="624"/>
+<entry
+   checksum="d897ca905e0a690325b88968d4f2a159"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="CDATA.java"
+   committed-rev="624"/>
+<entry
+   checksum="297065efba3b4acefba902a2ae35e266"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Comment.java"
+   committed-rev="624"/>
+<entry
+   checksum="2b0761c5ebc8b2b3b295f6da10d89b93"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Content.java"
+   committed-rev="624"/>
+<entry
+   checksum="4c34a57dc171e58592555c7f13545e97"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="ContentList.java"
+   committed-rev="624"/>
+<entry
+   checksum="8d506f853755e8fd82cbe5722192875f"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DataConversionException.java"
+   committed-rev="624"/>
+<entry
+   checksum="b639ee7d43fb31a5f9fcc079e3b11f22"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DefaultJDOMFactory.java"
+   committed-rev="624"/>
+<entry
+   checksum="a154e8a7ddcc1249cce89ae14636605e"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DescendantIterator.java"
+   committed-rev="624"/>
+<entry
+   checksum="c86f2567b46607a043ae7d3b16cd0734"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="DocType.java"
+   committed-rev="624"/>
+<entry
+   checksum="c8f219df4f75a99606e8a15f690dcb47"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Document.java"
+   committed-rev="624"/>
+<entry
+   checksum="e35f58bcb17de941dc619a346e406fc6"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Element.java"
+   committed-rev="624"/>
+<entry
+   checksum="b6360ca86949559dc84a3cc7b0d924f1"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="EntityRef.java"
+   committed-rev="624"/>
+<entry
+   checksum="c694c4337d1d7e88c39afd2373223829"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="FilterIterator.java"
+   committed-rev="624"/>
+<entry
+   checksum="8e8b82195cecaba9f8e089011613e97e"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="IllegalAddException.java"
+   committed-rev="624"/>
+<entry
+   checksum="593201db32aa3083aa23f74b46f9a82a"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="IllegalDataException.java"
+   committed-rev="624"/>
+<entry
+   checksum="230eff05b093a435c6d8c62161c22021"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="IllegalNameException.java"
+   committed-rev="624"/>
+<entry
+   checksum="3ce0c48ec83d2d660a911164cd0276a2"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="IllegalTargetException.java"
+   committed-rev="624"/>
+<entry
+   checksum="992e33981c1e36a656bff09017bf2ccc"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JDOMException.java"
+   committed-rev="624"/>
+<entry
+   checksum="4e1dba0fa6734a6bc126c77f90561a08"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="JDOMFactory.java"
+   committed-rev="624"/>
+<entry
+   checksum="663c001769cd129b1c987b773cd931bf"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Namespace.java"
+   committed-rev="624"/>
+<entry
+   checksum="cd45a21a22f0c0b5c04c50fd94529cb3"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Parent.java"
+   committed-rev="624"/>
+<entry
+   checksum="8776e00653775165333254c8794187d3"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="ProcessingInstruction.java"
+   committed-rev="624"/>
+<entry
+   checksum="21b886ead1ddbd795afe4c7c7a448391"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Text.java"
+   committed-rev="624"/>
+<entry
+   checksum="0b0d925198cc86629ad031137cf1241e"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="UncheckedJDOMFactory.java"
+   committed-rev="624"/>
+<entry
+   checksum="c314467383784534233bd623dd238fc0"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Verifier.java"
+   committed-rev="624"/>
+<entry
+   name="adapters"
+   kind="dir"/>
+<entry
+   kind="dir"
+   name="filter"/>
+<entry
+   kind="dir"
+   name="input"/>
+<entry
+   name="output"
+   kind="dir"/>
+<entry
+   kind="dir"
+   name="transform"/>
+<entry
+   name="xpath"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="981"
+   name=""
+   committed-date="2006-12-15T17:27:34.172184Z"
+   url="https://svn.fib.upc.es/svn/prop/subgrup6.1/fork/capa2"
+   last-author="e6945429"
+   kind="dir"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   repos="https://svn.fib.upc.es/svn/prop/subgrup6.1"
+   revision="989"/>
+<entry
+   committed-rev="993"
+   name="Congres.java"
+   text-time="2006-12-16T15:54:51.409555Z"
+   committed-date="2006-12-16T16:19:20.443614Z"
+   checksum="d9cef6db3cce579a162687870ea76f0d"
+   last-author="e6982991"
+   kind="file"
+   prop-time="2006-12-15T18:55:46.771700Z"
+   revision="993"/>
+<entry
+   committed-rev="993"
+   name="Sessio.java"
+   text-time="2006-12-16T16:05:36.026468Z"
+   committed-date="2006-12-16T16:19:20.443614Z"
+   checksum="cd22b3e7a88134f9471e77f8bfc8effc"
+   last-author="e6982991"
+   kind="file"
+   prop-time="2006-12-15T18:55:46.921916Z"
+   revision="993"/>
+<entry
+   committed-rev="303"
+   name="TemaSemblant.java"
+   text-time="2006-12-13T21:54:50.921985Z"
+   committed-date="2006-11-17T12:12:09.968309Z"
+   checksum="f171198ce12596ad6d361226a55d5076"
+   last-author="e6945429"
+   kind="file"
+   prop-time="2006-12-13T21:54:50.621553Z"/>
+<entry
+   committed-rev="718"
+   name="Descans.java"
+   text-time="2006-12-13T21:54:50.701668Z"
+   committed-date="2006-12-12T18:09:25.098922Z"
+   checksum="98370729e4b738b34b828a796865b96b"
+   last-author="d8836230"
+   kind="file"
+   prop-time="2006-12-13T21:54:50.110819Z"/>
+<entry
+   committed-rev="967"
+   name="Prop.java"
+   text-time="2006-12-15T18:55:47.432651Z"
+   committed-date="2006-12-15T14:19:26.661309Z"
+   checksum="132e7e765dd1ab52e5369b64e040fe35"
+   last-author="d8836230"
+   kind="file"
+   prop-time="2006-12-15T18:55:46.831787Z"/>
+<entry
+   committed-rev="912"
+   name="capa2.ucd"
+   text-time="2006-12-15T18:55:47.472708Z"
+   committed-date="2006-12-15T00:54:13.913373Z"
+   checksum="3f2d41145c850a2cccd41602659824cc"
+   last-author="d8836230"
+   kind="file"
+   prop-time="2006-12-15T18:55:46.861830Z"/>
+<entry
+   committed-rev="998"
+   name="ControladorDomini.java"
+   text-time="2006-12-16T16:21:33.843742Z"
+   committed-date="2006-12-16T16:21:19.450381Z"
+   checksum="22932c35629a62452258512f3efbbf06"
+   last-author="e6982991"
+   kind="file"
+   revision="998"/>
+<entry
+   committed-rev="919"
+   name="Tema.java"
+   text-time="2006-12-15T18:55:47.502752Z"
+   committed-date="2006-12-15T07:43:57.800538Z"
+   checksum="5a919d0e727205fb83f2e731c6d2f83d"
+   last-author="d9386227"
+   kind="file"
+   prop-time="2006-12-15T18:55:46.961974Z"/>
+<entry
+   committed-rev="870"
+   name="Activitat.java"
+   text-time="2006-12-14T20:58:13.303548Z"
+   committed-date="2006-12-14T16:27:03.682146Z"
+   checksum="d21790bb441da5362a607d7c5a80f4db"
+   last-author="d8836230"
+   kind="file"
+   prop-time="2006-12-14T20:58:12.862915Z"/>
+<entry
+   committed-rev="969"
+   name="Temps.java"
+   text-time="2006-12-15T18:55:47.532795Z"
+   committed-date="2006-12-15T14:22:46.362290Z"
+   checksum="6fa4cf957b29738109f4c68f7bf4ab43"
+   last-author="d8836230"
+   kind="file"
+   prop-time="2006-12-15T18:55:47.052104Z"/>
+<entry
+   committed-rev="993"
+   name="Comunicacio.java"
+   text-time="2006-12-16T16:07:26.625502Z"
+   committed-date="2006-12-16T16:19:20.443614Z"
+   checksum="e8a596d51f9c2e7e66b7b5bd7e5caba8"
+   last-author="e6982991"
+   kind="file"
+   prop-time="2006-12-15T18:55:47.082147Z"
+   revision="993"/>
+<entry
+   committed-rev="711"
+   name="Autor.java"
+   text-time="2006-12-13T21:54:50.881928Z"
+   committed-date="2006-12-12T17:54:56.162958Z"
+   checksum="f4e0d71cd1e68d2d14dba7374e6bbbdd"
+   last-author="d8836230"
+   kind="file"
+   prop-time="2006-12-13T21:54:50.541438Z"/>
+<entry
+   committed-rev="993"
+   name="InclouDescans.java"
+   text-time="2006-12-16T16:06:29.363163Z"
+   committed-date="2006-12-16T16:19:20.443614Z"
+   checksum="fe34d7d6bc36306854afa8105a2820a8"
+   last-author="e6982991"
+   kind="file"
+   prop-time="2006-12-15T18:55:47.152248Z"
+   revision="993"/>
+<entry
+   committed-rev="963"
+   name="CjtComunicacions.java"
+   text-time="2006-12-15T18:55:47.582867Z"
+   committed-date="2006-12-15T14:06:38.350637Z"
+   checksum="4df153e6540696eccf9bbc8bddfcd23e"
+   last-author="d9386227"
+   kind="file"
+   prop-time="2006-12-15T18:55:47.252392Z"/>
+<entry
+   committed-rev="981"
+   name="Generadores.java"
+   text-time="2006-12-15T19:48:36.900121Z"
+   committed-date="2006-12-15T17:27:34.172184Z"
+   checksum="d37c00752f9fc1a29961e625944d14b1"
+   last-author="e6945429"
+   kind="file"
+   prop-time="2006-12-15T18:55:47.292449Z"/>
+</wc-entries>

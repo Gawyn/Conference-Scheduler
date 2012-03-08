@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" foregroundRGB="255,255,255" description="" id="capa3" metadata="uml2-1.0" initialized="true" scrolledX="625" scrolledY="122" tag="10" key="323030363130303320666F726B">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="TractamentXML" location="785,342" size="329,284" id="capa3/TractamentXML" runTimeClassModel="EscriureFitxerXMLaDisc(Ljava.util.Vector;),LlegirDocumentXML_vCluster(),LlegirDocumentXML(),TractamentXML(Ljava.lang.String;Ljava.lang.String;),ProcessarXmlSimpleDescans(Lcapa3.XmlSimple;),ProcessarElementInclouDescans(Lorg.jdom.Element;),ProcessarElementComunicacio(Lorg.jdom.Element;),ProcessarXmlSimpleComunicacio(Lcapa3.XmlSimple;),fxml,ProcessarElement(Lorg.jdom.Element;Ljava.util.Vector;),EscriuInclouDescansAXML(Lcapa2.InclouDescans;),XMLCorrecte(),EscriuComunicacioAXML(Lcapa2.Comunicacio;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="60,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="fxml" id="capa3/TractamentXML#fxml"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="309,192">
+      <children xsi:type="editmodel:MethodEditModel" name="EscriuComunicacioAXML" id="capa3/TractamentXML#EscriuComunicacioAXML(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EscriuInclouDescansAXML" id="capa3/TractamentXML#EscriuInclouDescansAXML(Lcapa2.InclouDescans;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="EscriureFitxerXMLaDisc" id="capa3/TractamentXML#EscriureFitxerXMLaDisc(Ljava.util.Vector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlegirDocumentXML" id="capa3/TractamentXML#LlegirDocumentXML()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlegirDocumentXML_vCluster" id="capa3/TractamentXML#LlegirDocumentXML_vCluster()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ProcessarElement" id="capa3/TractamentXML#ProcessarElement(Lorg.jdom.Element;Ljava.util.Vector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ProcessarElementComunicacio" id="capa3/TractamentXML#ProcessarElementComunicacio(Lorg.jdom.Element;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ProcessarElementInclouDescans" id="capa3/TractamentXML#ProcessarElementInclouDescans(Lorg.jdom.Element;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ProcessarXmlSimpleComunicacio" id="capa3/TractamentXML#ProcessarXmlSimpleComunicacio(Lcapa3.XmlSimple;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ProcessarXmlSimpleDescans" id="capa3/TractamentXML#ProcessarXmlSimpleDescans(Lcapa3.XmlSimple;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TractamentXML" id="capa3/TractamentXML#TractamentXML(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="XMLCorrecte" id="capa3/TractamentXML#XMLCorrecte()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/TractamentXML->capa3/Fitxer" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,205" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="262,79"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/TractamentXML->capa3/XmlSimple" source="//@children.0" target="//@children.5" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="329,204" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,78"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa3/TractamentXML->capa3/XmlSimpleExtended" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="329,264" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/TractamentXML->capa3/XmlSimpleExtended" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="319,284" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/TractamentXML->capa3/GestorDiscConstants" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.4/@children.2" label="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,284" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="266,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.0/@sourceConnections.0" name="Fitxer" location="420,468" size="262,300" id="capa3/Fitxer" runTimeClassModel="GetNom(),TancarFitxerDEscriptura(Ljava.io.BufferedWriter;),ObrirFitxerLectura(),SetMode_acces(Ljava.lang.String;),file,TancarFitxerDeLectura(Ljava.io.BufferedReader;),mode_acces,GetFile(),nom,Fitxer(Ljava.lang.String;Ljava.lang.String;),SetNom(Ljava.lang.String;),ObrirFitxerEscriptura(),GetMode_acces(),SetFile(Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,48">
+      <children xsi:type="editmodel:AttributeEditModel" name="file" id="capa3/Fitxer#file"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mode_acces" id="capa3/Fitxer#mode_acces"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nom" id="capa3/Fitxer#nom"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="242,176">
+      <children xsi:type="editmodel:MethodEditModel" name="Fitxer" id="capa3/Fitxer#Fitxer(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetFile" id="capa3/Fitxer#GetFile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetMode_acces" id="capa3/Fitxer#GetMode_acces()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetNom" id="capa3/Fitxer#GetNom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ObrirFitxerEscriptura" id="capa3/Fitxer#ObrirFitxerEscriptura()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ObrirFitxerLectura" id="capa3/Fitxer#ObrirFitxerLectura()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetFile" id="capa3/Fitxer#SetFile(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetMode_acces" id="capa3/Fitxer#SetMode_acces(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetNom" id="capa3/Fitxer#SetNom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TancarFitxerDEscriptura" id="capa3/Fitxer#TancarFitxerDEscriptura(Ljava.io.BufferedWriter;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TancarFitxerDeLectura" id="capa3/Fitxer#TancarFitxerDeLectura(Ljava.io.BufferedReader;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.0/@sourceConnections.4" name="GestorDiscConstants" location="404,850" size="266,172" id="capa3/GestorDiscConstants" runTimeClassModel="eRROR_AFEGIR_DESCANS_VECTOR,PS(Ljava.lang.String;),eRROR_IO,eRROR_GENERAL,eRROR_ELEMENT,eRROR_AFEGIR_COMUNICACIO_VECTOR">
+    <children xsi:type="editmodel:CompartmentEditModel" size="246,80">
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_AFEGIR_COMUNICACIO_VECTOR" id="capa3/GestorDiscConstants#eRROR_AFEGIR_COMUNICACIO_VECTOR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_AFEGIR_DESCANS_VECTOR" id="capa3/GestorDiscConstants#eRROR_AFEGIR_DESCANS_VECTOR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_ELEMENT" id="capa3/GestorDiscConstants#eRROR_ELEMENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_GENERAL" id="capa3/GestorDiscConstants#eRROR_GENERAL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eRROR_IO" id="capa3/GestorDiscConstants#eRROR_IO"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,16">
+      <children xsi:type="editmodel:MethodEditModel" name="PS" id="capa3/GestorDiscConstants#PS(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="TractamentTXT" location="42,414" size="291,140" id="capa3/TractamentTXT" runTimeClassModel="TractamentTXT(Ljava.lang.String;Ljava.lang.String;),ftxt,EscripturaFitxer(Ljava.util.Vector;),LecturaFitxer()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="56,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="ftxt" id="capa3/TractamentTXT#ftxt"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="271,48">
+      <children xsi:type="editmodel:MethodEditModel" name="EscripturaFitxer" id="capa3/TractamentTXT#EscripturaFitxer(Ljava.util.Vector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LecturaFitxer" id="capa3/TractamentTXT#LecturaFitxer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TractamentTXT" id="capa3/TractamentTXT#TractamentTXT(Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/TractamentTXT->capa3/GestorDiscConstants" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«access»" size="48,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="281,140" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/TractamentTXT->capa3/Fitxer" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="291,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,43"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ControladorDades" location="395,142" size="324,156" id="capa3/ControladorDades" runTimeClassModel="EscriureDadesDiscXML(Ljava.lang.String;Ljava.util.Vector;),LlegirDadesDiscXML(Ljava.lang.String;),LlegirDadesDisc(Ljava.lang.String;),GuardarDadesDisc(Ljava.lang.String;Ljava.util.Vector;),LLegirDadesDiscXML_vCluster(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="304,80">
+      <children xsi:type="editmodel:MethodEditModel" name="EscriureDadesDiscXML" id="capa3/ControladorDades#EscriureDadesDiscXML(Ljava.lang.String;Ljava.util.Vector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GuardarDadesDisc" id="capa3/ControladorDades#GuardarDadesDisc(Ljava.lang.String;Ljava.util.Vector;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LLegirDadesDiscXML_vCluster" id="capa3/ControladorDades#LLegirDadesDiscXML_vCluster(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlegirDadesDisc" id="capa3/ControladorDades#LlegirDadesDisc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlegirDadesDiscXML" id="capa3/ControladorDades#LlegirDadesDiscXML(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/ControladorDades->capa3/TractamentTXT" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,146" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="281,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa3/ControladorDades->capa3/TractamentXML" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="314,156" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.6/@sourceConnections.0" name="XmlSimple" location="1280,468" size="265,364" id="capa3/XmlSimple" runTimeClassModel="getM_elem(),getTag(Ljava.lang.String;),XmlSimple(Lcapa3.XmlSimple;),setM_tag(Ljava.lang.String;),m_tag,getLength(),getM_tag(),tria(I),m_elem,XmlSimple(),setM_doc(Lorg.w3c.dom.Document;),getM_doc(),obrir(Ljava.lang.String;),XmlSimple(Lorg.w3c.dom.Document;Lorg.w3c.dom.Element;),atribut(Ljava.lang.String;Ljava.lang.String;),valor(),m_doc,setM_elem(Lorg.w3c.dom.Element;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="93,48">
+      <children xsi:type="editmodel:AttributeEditModel" name="m_doc" id="capa3/XmlSimple#m_doc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="m_elem" id="capa3/XmlSimple#m_elem"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="m_tag" id="capa3/XmlSimple#m_tag"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="245,240">
+      <children xsi:type="editmodel:MethodEditModel" name="XmlSimple" id="capa3/XmlSimple#XmlSimple(Lcapa3.XmlSimple;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="XmlSimple" id="capa3/XmlSimple#XmlSimple(Lorg.w3c.dom.Document;Lorg.w3c.dom.Element;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="XmlSimple" id="capa3/XmlSimple#XmlSimple()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atribut" id="capa3/XmlSimple#atribut(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLength" id="capa3/XmlSimple#getLength()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getM_doc" id="capa3/XmlSimple#getM_doc()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getM_elem" id="capa3/XmlSimple#getM_elem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getM_tag" id="capa3/XmlSimple#getM_tag()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTag" id="capa3/XmlSimple#getTag(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="obrir" id="capa3/XmlSimple#obrir(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setM_doc" id="capa3/XmlSimple#setM_doc(Lorg.w3c.dom.Document;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setM_elem" id="capa3/XmlSimple#setM_elem(Lorg.w3c.dom.Element;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setM_tag" id="capa3/XmlSimple#setM_tag(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tria" id="capa3/XmlSimple#tria(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="valor" id="capa3/XmlSimple#valor()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.0/@sourceConnections.3" name="XmlSimpleExtended" location="1258,882" size="310,140" id="capa3/XmlSimpleExtended" runTimeClassModel="XmlSimpleExtended(Lcapa3.XmlSimpleExtended;),GetNomLocal(),XmlSimpleExtended(),XmlSimpleExtended(Lorg.w3c.dom.Document;Lorg.w3c.dom.Element;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="290,64">
+      <children xsi:type="editmodel:MethodEditModel" name="GetNomLocal" id="capa3/XmlSimpleExtended#GetNomLocal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="XmlSimpleExtended" id="capa3/XmlSimpleExtended#XmlSimpleExtended(Lcapa3.XmlSimpleExtended;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="XmlSimpleExtended" id="capa3/XmlSimpleExtended#XmlSimpleExtended(Lorg.w3c.dom.Document;Lorg.w3c.dom.Element;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="XmlSimpleExtended" id="capa3/XmlSimpleExtended#XmlSimpleExtended()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="capa3/XmlSimple&lt;-capa3/XmlSimpleExtended" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="132,364"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

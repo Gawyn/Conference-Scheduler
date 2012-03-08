@@ -1,0 +1,19 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\EXE\capa3
+
+15/12/2006  18:54    <DIR>          .
+15/12/2006  18:54    <DIR>          ..
+15/12/2006  00:53            93.650 capa3.svg
+15/12/2006  01:45            27.796 capa3.ucd
+15/12/2006  15:15             2.217 ControladorDades.class
+15/12/2006  15:08             2.164 Fitxer.class
+15/12/2006  15:08               999 GestorDiscConstants.class
+15/12/2006  18:54                 0 index.txt
+15/12/2006  15:20             2.363 TractamentTXT.class
+15/12/2006  16:25            11.006 TractamentXML.class
+15/12/2006  16:25             3.152 XmlSimple.class
+15/12/2006  16:25               910 XmlSimpleExtended.class
+              10 archivos        144.257 bytes
+               2 dirs   1.352.011.776 bytes libres

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+  <comunicacio titol="Como aprobar PROP en un fin de semana" duracio="30">
+    <autor nom="John" cognoms="Williams" />
+    <temes>
+      <tema nom="Prop" />
+      <tema nom="Filosofia" />
+    </temes>
+    <assignacio sessio="1" hora="10" minuts="10" />
+  </comunicacio>
+  <descans nom="Coffe Break" duracio="30">
+    <assignacio sessio="1" hora="11" minuts="55" />
+  </descans>
+  <comunicacio titol="Como incentivar al grupo de trabajo" duracio="45">
+    <autor nom="James" cognoms="Horner" />
+    <temes>
+      <tema nom="Historia" />
+    </temes>
+    <assignacio sessio="1" hora="14" minuts="33" />
+  </comunicacio>
+  <descans nom="Short Break" duracio="10">
+    <assignacio sessio="1" hora="15" minuts="21" />
+  </descans>
+</horari>
+

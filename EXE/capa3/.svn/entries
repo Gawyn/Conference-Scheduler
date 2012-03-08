@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/capa3"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-15T15:25:59.687859Z"
+   kind="dir"
+   name=""
+   committed-rev="975"/>
+<entry
+   checksum="5baddec5b9578d719e5c38d4aaebf3a8"
+   last-author="d8836230"
+   text-time="2006-12-15T14:15:59.750000Z"
+   committed-date="2006-12-15T14:16:05.432000Z"
+   kind="file"
+   name="ControladorDades.java"
+   committed-rev="966"/>
+<entry
+   checksum="44a01fdac53d00dfa3ab4f996ae90e31"
+   last-author="d8836230"
+   text-time="2006-12-12T19:23:04.143000Z"
+   committed-date="2006-12-12T19:23:08.454000Z"
+   kind="file"
+   name="Fitxer.java"
+   committed-rev="744"/>
+<entry
+   checksum="63ef8ae856227401fac06fd13be5b65a"
+   last-author="d8836230"
+   text-time="2006-12-14T15:03:43.159000Z"
+   committed-date="2006-12-14T16:10:04.618000Z"
+   name="GestorDiscConstants.java"
+   kind="file"
+   committed-rev="866"/>
+<entry
+   checksum="19fc37f135e9ca62c96963bb6fe34244"
+   last-author="d8836230"
+   text-time="2006-12-15T14:20:34.448000Z"
+   committed-date="2006-12-15T14:20:42.282000Z"
+   kind="file"
+   name="TractamentTXT.java"
+   committed-rev="968"/>
+<entry
+   checksum="64e47dbb14cb4ed7874b71fa78212d53"
+   last-author="d8836230"
+   text-time="2006-12-15T15:25:53.887000Z"
+   committed-date="2006-12-15T15:25:59.687000Z"
+   kind="file"
+   name="TractamentXML.java"
+   committed-rev="975"/>
+<entry
+   checksum="c5fc87e67e01ec9dab80621101f2ce61"
+   last-author="d8836230"
+   text-time="2006-12-15T15:25:24.897000Z"
+   committed-date="2006-12-15T15:25:29.717000Z"
+   kind="file"
+   name="XmlSimple.java"
+   committed-rev="974"/>
+<entry
+   checksum="2ed6b54f1622dbcacd3e1d220440cfd1"
+   last-author="d8836230"
+   text-time="2006-12-14T18:46:52.638000Z"
+   committed-date="2006-12-14T18:51:01.261000Z"
+   kind="file"
+   name="XmlSimpleExtended.java"
+   committed-rev="888"/>
+<entry
+   checksum="84480df4a06b26978bb2b909f4536b45"
+   last-author="d8836230"
+   prop-time="2006-12-15T14:07:16.640000Z"
+   text-time="2006-12-14T23:53:22.584000Z"
+   committed-date="2006-12-14T23:53:22.584287Z"
+   kind="file"
+   name="capa3.jpg"
+   committed-rev="907"/>
+<entry
+   checksum="9f48de66add00c7eb099f78bd8f03504"
+   last-author="d8836230"
+   text-time="2006-12-14T23:53:22.584000Z"
+   committed-date="2006-12-14T23:53:22.584287Z"
+   kind="file"
+   name="capa3.svg"
+   committed-rev="907"/>
+<entry
+   checksum="428252e8c298b3509f553db078d50242"
+   last-author="d8836230"
+   text-time="2006-12-15T00:45:33.532000Z"
+   committed-date="2006-12-15T00:45:33.532793Z"
+   kind="file"
+   name="capa3.ucd"
+   committed-rev="910"/>
+</wc-entries>

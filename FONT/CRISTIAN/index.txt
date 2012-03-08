@@ -1,0 +1,26 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\FONT\CRISTIAN
+
+15/12/2006  18:55    <DIR>          .
+15/12/2006  18:55    <DIR>          ..
+12/12/2006  18:54             1.891 Autor.java
+15/12/2006  18:29             5.922 CarCong.java
+15/12/2006  18:29             9.533 ControladorDomini.java
+ControladorVistes
+15/12/2006  18:00               243 Executable.java
+15/12/2006  18:55                 0 index.txt
+14/12/2006  09:57               775 Prova.java
+15/11/2006  16:14             3.504 Test.java
+15/12/2006  18:29             4.561 VCrearAutor.java
+15/12/2006  18:29             4.506 VCrearCom.java
+15/12/2006  18:29             3.860 VCrearTema.java
+15/12/2006  18:31             9.114 VentanaMenu.java
+15/12/2006  18:29             7.895 VGenCongres1.java
+15/12/2006  16:40             8.942 VLista.java
+15/12/2006  15:56             3.626 VMissatge.java
+15/12/2006  16:40             7.706 VRelcom.java
+14/12/2006  16:16             3.078 VTemes.java
+              16 archivos         75.156 bytes
+               2 dirs   1.352.003.584 bytes libres

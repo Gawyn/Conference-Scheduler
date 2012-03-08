@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   revision="984"
+   repos="https://svn.fib.upc.edu/svn/prop/subgrup6.1"
+   url="https://svn.fib.upc.edu/svn/prop/subgrup6.1/fork/org/jdom/filter"
+   last-author="d8836230"
+   uuid="a778e82b-9620-ea67-c242-a6b71a002e0a"
+   committed-date="2006-12-11T17:42:35.281925Z"
+   kind="dir"
+   name=""
+   committed-rev="686"/>
+<entry
+   checksum="987b362d978734c59bba5b8219a45f86"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="AbstractFilter.java"
+   committed-rev="624"/>
+<entry
+   checksum="a37c39066a6b45e82e54ffe98baa44d5"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="AndFilter.java"
+   committed-rev="624"/>
+<entry
+   checksum="5a837840a8131bc29f4fbeb8dbab2b2a"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="ContentFilter.java"
+   committed-rev="624"/>
+<entry
+   checksum="c5e2c8a0108db4ee794b389f820fae87"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="ElementFilter.java"
+   committed-rev="624"/>
+<entry
+   checksum="8b99fa14add38d910122dbcb7703f926"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="Filter.java"
+   committed-rev="624"/>
+<entry
+   checksum="ad95584f6a9e47738c4fef6f8e59d3fd"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="NegateFilter.java"
+   committed-rev="624"/>
+<entry
+   checksum="4abae23f92fa481482b6cf2e5e387342"
+   last-author="d8836230"
+   text-time="2006-12-08T11:22:30.121000Z"
+   committed-date="2006-12-08T11:22:30.121338Z"
+   kind="file"
+   name="OrFilter.java"
+   committed-rev="624"/>
+</wc-entries>

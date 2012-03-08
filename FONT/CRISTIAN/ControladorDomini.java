@@ -1,0 +1,429 @@
+/* PRACTICA PROP CLUSTER 6.1
+ * ===================================
+ * Enunciat 1: Generador d'horaris  ==
+ * ===================================
+ * 
+ * Rosina Garcia 
+ * Clemente Tort
+ * Cristian Planas
+ * Oscar Camacho
+ * © 2006. 
+ * 
+ */
+//Implementat per Cristian Planas
+package capa2;
+
+import capa3.*;
+import java.util.*;
+
+public class ControladorDomini {
+
+	/** El Conjunto de comunicaciones. */
+
+	private CjtComunicacions cjt = CjtComunicacions.GetInstance();
+
+	/** El congreso. */
+	private Congres congres = Congres.GetInstance();
+
+	/** El Controlador de datos (para guardar en disco). */
+
+	private ControladorDades condad = new ControladorDades();
+
+	public Congres congres() {
+		return Congres.GetInstance();
+	}
+
+	/** Nos devuelve el grado de relación entre 2 comunicaciones */
+
+	public int getgrau(Comunicacio a, Comunicacio b) {
+		int N = cjt.GetSize();
+		int i = 0;
+		boolean q = false;
+		while (i < N && q == false) {
+			if (cjt.GetCom(i) == a) {
+				q = true;
+			} else {
+				i++;
+			}
+		}
+		int j = 0;
+		q = false;
+		while (j < N && q == false) {
+			if (cjt.GetCom(j) == b) {
+				q = true;
+			} else {
+				j++;
+			}
+		}
+		int x = cjt.GetCom(i).GetGrau(cjt.GetCom(j));
+		return x;
+	}
+
+	/** Intercanvia la posición de 2 comunicaciones en el congreso */
+
+	public void intercanviar(Comunicacio a, Comunicacio b) {
+
+	}
+
+	/** Coloca a a como autor de c. */
+	public void setautor(Autor a, Comunicacio c) {
+		int N = cjt.GetSize();
+		int i = 0;
+		boolean q = false;
+		while (i < N && q == false) {
+			if (cjt.GetCom(i).GetAutor() == a) {
+				q = true;
+			} else {
+				i++;
+			}
+		}
+		cjt.GetCom(i).SetAutor(a);
+
+	}
+
+	public void guardarcjt(String file) {
+		Prop.GuardarComunicacionsADisc(file);
+	}
+
+	public void carregarcjt(String file) {
+		cjt.InicialitzarCJTComunicacions();
+		congres.InicialitzarCong();
+		Prop.CarregarComunicacionsDeDisc(file);
+	}
+
+	/**
+	 * A partir de las horas de inicio y de fin, las comunicaciones por sesion,
+	 * el numero de sesion, y el modo, genera el congreso
+	 */
+
+	public void GenCongres(Temps a, Temps b, int comxses, int numses, int mode) {
+		congres.SetHinici(a);
+		congres.SetHFinal(b);
+		congres.SetCxs(comxses);
+		congres.SetNumSessions(numses);
+		if (mode == 1) {
+			try {
+				Generadores.GenerarCongresBT();
+			} catch (Exception e) {
+				}
+			}
+		else {
+			try {
+				Generadores.GenerarCongresVoras();
+			} catch (Exception e) {
+			}
+		}
+	}
+
+	/**
+	 * Devuelve los datos de la comunicacion numero x en un vector de Strings
+	 * 
+	 */
+
+	public String[] Plenacong(int x) {
+		int i = 0;
+		boolean b = false;
+		while (x != 0 && b == false) {
+			if (congres.GetSessio(i).GetActivitats().size() <= x) {
+				x = x - congres.GetSessio(i).GetActivitats().size();
+				i++;
+			} else {
+				b = true;
+			}
+		}
+
+		Activitat act = congres.GetSessio(i).GetAct(x);
+		Temps t = new Temps(15, 10);
+		t = act.GetInici();
+		int pes = t.TempsToPes();
+		int p = pes + act.GetDuracio();
+		int re = p / 60;
+		int ka = p % 60;
+		String[] resultado = { "", "", "", "", "" };
+		Temps temp = new Temps(re, ka);
+		if (act.GetTipus() == 2) {
+			Comunicacio l = (Comunicacio) act;
+			String a1 = l.GetNom();
+			String a2 = l.GetAutor().toString();
+			String a3 = l.GetInici().ToString();
+			String a4 = temp.ToString();
+			String a5 = Integer.toString(i + 1);
+			resultado[0] = a1;
+			resultado[1] = a2;
+			resultado[2] = a3;
+			resultado[3] = a4;
+			resultado[4] = a5;
+		} else {
+			InclouDescans l = (InclouDescans) act;
+			String a1 = l.GetNom();
+			String a2 = "";
+			String a3 = l.GetInici().ToString();
+			String a4 = temp.ToString();
+			String a5 = Integer.toString(i + 1);
+			resultado[0] = a1;
+			resultado[1] = a2;
+			resultado[2] = a3;
+			resultado[3] = a4;
+			resultado[4] = a5;
+
+		}
+		return resultado;
+	}
+
+	/** Retorna el numero de comunicacions del congres */
+
+	public int NumComCong() {
+		int a = 0;
+		int N = congres.GetSessions().size();
+		int i = 0;
+		Sessio ses;
+		List<Sessio> lses;
+		lses = congres.GetSessions();
+		List<Activitat> activitats;
+		while (i < N) {
+			ses = lses.get(i);
+			activitats = ses.GetActivitats();
+			a = activitats.size() + a;
+			i++;
+		}
+		return a;
+	}
+
+	/**
+	 * Estableix una relació x entre les comunicacions a i b
+	 */
+
+	public void SetGrau(Comunicacio a, Comunicacio b, int x) {
+		int N = cjt.GetSize();
+		int i = 0;
+		boolean q = false;
+		while (i < N && q == false) {
+			if (cjt.GetCom(i) == a) {
+				q = true;
+			} else {
+				i++;
+			}
+		}
+		int j = 0;
+		q = false;
+		while (j < N && q == false) {
+			if (cjt.GetCom(j) == b) {
+				q = true;
+			} else {
+				j++;
+			}
+		}
+		cjt.GetCom(i).SetGrau(cjt.GetCom(j), x);
+		cjt.GetCom(j).SetGrau(cjt.GetCom(i), x);
+	}
+
+	/** Afegeix la comunicacio c al conjunt de comunicacions. */
+
+	public void Afegircom(Comunicacio c) {
+		cjt.AfegirC(c);
+	}
+
+	/** Retorna un autor a partir de dos Strings (nom,cognom) */
+
+	public Autor CrAutor(String a, String b) {
+		Autor aut = new Autor(a, b);
+		return aut;
+	}
+
+	/**
+	 * Retorna una Comunicacio a partir del String nom i del int duracio
+	 */
+
+	public Comunicacio CrComunicacio(String a, int b) {
+		Comunicacio com = null;
+		try {
+			com = new Comunicacio(a, b);
+		} catch (Exception e) {
+
+		}
+		return com;
+	}
+
+	/** Elimina una comunicació del conjunt */
+
+	public void Eliminarcom(Comunicacio c) {
+		cjt.DelCom(c);
+	}
+
+	/** Retorna la llista d'autors */
+
+	/** Retorna la llista de comunicacions */
+
+	public List<Comunicacio> LlistaCom() {
+
+		int N = cjt.GetSize();
+		int i = 0;
+		List<Comunicacio> mec = new ArrayList<Comunicacio>();
+		while (i < N) {
+			mec.add(cjt.GetCom(i));
+			i++;
+		}
+		return mec;
+
+	}
+
+	/** Canvia l'autor d'una comunicació de dins el cjt */
+
+	public void modautor(Autor a, Comunicacio c) {
+
+		int N = cjt.GetSize();
+		int i = 0;
+		boolean b = false;
+		while (i < N && b == false) {
+			if (cjt.GetCom(i) == c) {
+				b = true;
+			} else {
+				i++;
+			}
+		}
+		cjt.GetCom(i).SetAutor(a);
+
+	}
+
+	/** Retorna la llista de temes */
+
+	public List<Tema> LlistaTemes() {
+		List<Tema> temes = new ArrayList<Tema>();
+		int N = cjt.GetSize();
+		int i = 0;
+		int j = 0;
+		int M = 0;
+		while (i < N) {
+			M = cjt.GetCom(i).GetTemes().size();
+			while (j < M) {
+				if (!temes.contains(cjt.GetCom(i).GetTema(j))) {
+
+					temes.add(cjt.GetCom(i).GetTema(j));
+				} else {
+				}
+				j++;
+			}
+			j = 0;
+			i++;
+		}
+		return temes;
+	}
+
+	/** Afegeix un tema a una comunicació */
+
+	public void AfegirTemaaCom(Comunicacio c, Tema t) {
+		try {
+			c.AfegirTema(t);
+		} catch (Exception e) {
+
+		}
+	}
+
+	/**
+	 * Retorna un temps a partir de l'hora (int a) i els minuts (int b).
+	 */
+
+	public Temps CrTemps(int a, int b) {
+		Temps t = new Temps(a, b);
+		return t;
+	}
+
+	/** Situa a l'autor a com a autor de c */
+
+	public Comunicacio setAutor(Comunicacio c, Autor a) {
+		c.SetAutor(a);
+		return c;
+	}
+
+	/** Retorna un tema a partir del seu nom (String n) */
+
+	public Tema CrTema(String n) {
+		Tema t = new Tema(n);
+		return t;
+	}
+
+	public List<Tema> TemesdeCom(Comunicacio c) {
+		return c.GetTemes();
+	}
+
+	public void guardarhorarixml(String file) {
+		Vector<Activitat> va = new Vector<Activitat>();
+		try {
+			Congres c = Congres.GetInstance();
+			ControladorDades cd = new ControladorDades();
+			for (int i = 0; i < c.GetNumSessions(); i++) {
+				List<Activitat> lact = new ArrayList<Activitat>();
+				lact = c.GetSessio(i).GetActivitats();
+				Iterator itLac = lact.iterator();
+				while (itLac.hasNext()) {
+					Activitat act = (Activitat) itLac.next();
+					va.add(act);
+				}
+
+			}
+			cd.EscriureDadesDiscXML(file, va);
+		} catch (Exception e) {
+		}
+	}
+
+	public Vector<Activitat> CarregarHorariXML(String file) {
+		return condad.LlegirDadesDiscXML(file);
+
+	}
+
+	public void IniCong() {
+		congres.InicialitzarCong();
+	}
+
+	public boolean buitcong() {
+		boolean b = false;
+		if (congres.GetSessions() == null) {
+			b = true;
+		}
+		return b;
+	}
+
+	public Vector<Activitat> Getacts() {
+		Vector<Activitat> ras = new Vector<Activitat>();
+		int N = congres.GetNumSessions();
+		int i = 0;
+		int M;
+		int j = 0;
+		while (i < N) {
+			M = congres.GetSessio(i).GetActivitats().size();
+			while (j < M) {
+				ras.add(congres.GetSessio(i).GetAct(j));
+				j++;
+			}
+			j = 0;
+			i++;
+		}
+		return ras;
+	}
+
+	public void CanviarActivitats(Activitat a, Activitat b) {
+		congres.CanviarActivitats(a, b);
+	}
+
+	public void IniCjt() {
+		cjt.InicialitzarCJTComunicacions();
+	}
+
+	public void setsessions(int a) {
+		congres.SetNumSessions(a);
+	}
+
+	public int quantes() {
+		int a = congres.GetSessions().size();
+		return a;
+	}
+	
+	public void CjtClean(){
+		cjt.Clean();
+	}
+	
+	public int NumSes(){
+		return congres.GetSessions().size();
+	}
+
+}

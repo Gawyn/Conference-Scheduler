@@ -1,0 +1,14 @@
+ El volumen de la unidad C es SISTEMA
+ El n£mero de serie del volumen es: 8A98-0A4B
+
+ Directorio de C:\Documents and Settings\camacho\Escritorio\disc\FONT\CLEMENTE
+
+15/12/2006  18:55    <DIR>          .
+15/12/2006  18:55    <DIR>          ..
+15/12/2006  15:06             4.737 CjtComunicacions.java
+15/12/2006  15:06             4.679 Congres.java
+15/12/2006  18:27            20.146 Generadores.java
+15/12/2006  18:55                 0 index.txt
+15/12/2006  08:43             2.963 Tema.java
+               5 archivos         32.525 bytes
+               2 dirs   1.352.007.680 bytes libres

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" foregroundRGB="255,255,255" description="" id="capa1" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledY="237" tag="10" key="323030363130303320666F726B">
+  <children xsi:type="editmodel:ClassEditModel" name="Dialegs" location="1150,1733" size="435,140" id="capa1/Dialegs" runTimeClassModel="si_no(Ljava.lang.String;Ljava.lang.String;),dialeg3(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),guardar(),obrir()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="415,64">
+      <children xsi:type="editmodel:MethodEditModel" name="dialeg3" id="capa1/Dialegs#dialeg3(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardar" id="capa1/Dialegs#guardar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="obrir" id="capa1/Dialegs#obrir()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="si_no" id="capa1/Dialegs#si_no(Ljava.lang.String;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMem`er="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VCrearAutor" location="1650,1619" size="205,396" id="capa1/VCrearAutor" runTimeClassModel="com,jTextField,VCrearAutor(Ljava.lang.String;),gettitle(),jLabel,control,jLabel1,getAceptar(),getCancelar(),jLabel2,jTextField2,getJTextField(),getJTextField2(),cierrate(),windowClosing(Ljava.awt.event.WindowEvent;),aceptar,setcom(Lcapa2.Comunicacio;),initialize(Ljava.lang.String;),cancelar,serialVersionUID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,160">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VCrearAutor#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VCrearAutor#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="com" id="capa1/VCrearAutor#com"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VCrearAutor#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VCrearAutor#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="capa1/VCrearAutor#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel2" id="capa1/VCrearAutor#jLabel2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField" id="capa1/VCrearAutor#jTextField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField2" id="capa1/VCrearAutor#jTextField2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VCrearAutor#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,160">
+      <children xsi:type="editmodel:MethodEditModel" name="VCrearAutor" id="capa1/VCrearAutor#VCrearAutor(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VCrearAutor#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAceptar" id="capa1/VCrearAutor#getAceptar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCancelar" id="capa1/VCrearAutor#getCancelar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField" id="capa1/VCrearAutor#getJTextField()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField2" id="capa1/VCrearAutor#getJTextField2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VCrearAutor#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VCrearAutor#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setcom" id="capa1/VCrearAutor#setcom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VCrearAutor#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VCrearAutor->capa1/ControladorDomini" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,7" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="427,516"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VCrearAutor->capa1/ControladorDomini" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="7,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="399,524"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VentanaMenu" location="1907,1304" size="247,754" id="capa1/VentanaMenu" runTimeClassModel="guardar,canviarautor,veurerel,capa1.VentanaMenu.VentanamenuWindowListener,ben,ajuda,congres,main([Ljava.lang.String;),barra,VentanaMenu(),generar,carregarc,delcom,relacionartema,control,relcom,generarBT,sobrenos,comunicacions,carregarh,setupSucesos(),elimtem,crcomunicacio,vertem,sortir,capa1.VentanaMenu.OyenteMenú">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,336">
+      <children xsi:type="editmodel:AttributeEditModel" name="ajuda" id="capa1/VentanaMenu#ajuda"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="barra" id="capa1/VentanaMenu#barra"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ben" id="capa1/VentanaMenu#ben"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="canviarautor" id="capa1/VentanaMenu#canviarautor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="carregarc" id="capa1/VentanaMenu#carregarc"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="carregarh" id="capa1/VentanaMenu#carregarh"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="comunicacions" id="capa1/VentanaMenu#comunicacions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="congres" id="capa1/VentanaMenu#congres"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VentanaMenu#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="crcomunicacio" id="capa1/VentanaMenu#crcomunicacio"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="delcom" id="capa1/VentanaMenu#delcom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="elimtem" id="capa1/VentanaMenu#elimtem"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="generar" id="capa1/VentanaMenu#generar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="generarBT" id="capa1/VentanaMenu#generarBT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="guardar" id="capa1/VentanaMenu#guardar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="relacionartema" id="capa1/VentanaMenu#relacionartema"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="relcom" id="capa1/VentanaMenu#relcom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sobrenos" id="capa1/VentanaMenu#sobrenos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sortir" id="capa1/VentanaMenu#sortir"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="vertem" id="capa1/VentanaMenu#vertem"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="veurerel" id="capa1/VentanaMenu#veurerel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,48">
+      <children xsi:type="editmodel:MethodEditModel" name="VentanaMenu" id="capa1/VentanaMenu#VentanaMenu()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="capa1/VentanaMenu#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setupSucesos" id="capa1/VentanaMenu#setupSucesos()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="227,284">
+      <children xsi:type="editmodel:ClassEditModel" name="OyenteMenú" size="200,92" id="capa1/VentanaMenu$OyenteMenú" runTimeClassModel="actionPerformed(Ljava.awt.event.ActionEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="180,16">
+          <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="capa1/VentanaMenu$OyenteMenú#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="VentanamenuWindowListener" location="1495,1745" size="227,188" id="capa1/VentanaMenu$VentanamenuWindowListener" runTimeClassModel="windowClosed(Ljava.awt.event.WindowEvent;),windowOpened(Ljava.awt.event.WindowEvent;),windowDeactivated(Ljava.awt.event.WindowEvent;),windowClosing(Ljava.awt.event.WindowEvent;),windowDeiconified(Ljava.awt.event.WindowEvent;),windowIconified(Ljava.awt.event.WindowEvent;),windowActivated(Ljava.awt.event.WindowEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="207,112">
+          <children xsi:type="editmodel:MethodEditModel" name="windowActivated" id="capa1/VentanaMenu$VentanamenuWindowListener#windowActivated(Ljava.awt.event.WindowEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="windowClosed" id="capa1/VentanaMenu$VentanamenuWindowListener#windowClosed(Ljava.awt.event.WindowEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VentanaMenu$VentanamenuWindowListener#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="windowDeactivated" id="capa1/VentanaMenu$VentanamenuWindowListener#windowDeactivated(Ljava.awt.event.WindowEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="windowDeiconified" id="capa1/VentanaMenu$VentanamenuWindowListener#windowDeiconified(Ljava.awt.event.WindowEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="windowIconified" id="capa1/VentanaMenu$VentanamenuWindowListener#windowIconified(Ljava.awt.event.WindowEvent;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="windowOpened" id="capa1/VentanaMenu$VentanamenuWindowListener#windowOpened(Ljava.awt.event.WindowEvent;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VentanaMenu->capa1/ControladorDomini" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,66" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="427,457"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VentanaMenu->capa1/ControladorDomini" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,164" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="427,358"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1 //@children.1/@sourceConnections.0 //@children.1/@sourceConnections.1 //@children.4/@sourceConnections.0 //@children.4/@sourceConnections.1 //@children.7/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.9/@sourceConnections.0 //@children.9/@sourceConnections.1 //@children.11/@sourceConnections.0 //@children.11/@sourceConnections.1 //@children.8/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.10/@sourceConnections.1" name="ControladorDomini" location="780,1110" size="427,524" id="capa1/ControladorDomini" runTimeClassModel="CarregarHorariXML(Ljava.lang.String;),CrAutor(Ljava.lang.String;Ljava.lang.String;),CrComunicacio(Ljava.lang.String;I),NumComCong(),congres(),AfegirTemaaCom(Lcapa2.Comunicacio;Lcapa2.Tema;),modautor(Lcapa2.Autor;Lcapa2.Comunicacio;),congres,LlistaTemes(),TemesdeCom(Lcapa2.Comunicacio;),LlistaAutors(),SetGrau(Lcapa2.Comunicacio;Lcapa2.Comunicacio;I),setAutor(Lcapa2.Comunicacio;Lcapa2.Autor;),carregarcjt(Ljava.lang.String;),Afegircom(Lcapa2.Comunicacio;),CrTema(Ljava.lang.String;),guardarhorarixml(Ljava.lang.String;),GenCongres(Lcapa2.Temps;Lcapa2.Temps;III),cjt,guardarcjt(Ljava.lang.String;),Eliminarcom(Lcapa2.Comunicacio;),Plenacong(I),setautor(Lcapa2.Autor;Lcapa2.Comunicacio;),LlistaCom(),CrTemps(II),intercanviar(Lcapa2.Comunicacio;Lcapa2.Comunicacio;),condad,getgrau(Lcapa2.Comunicacio;Lcapa2.Comunicacio;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,48">
+      <children xsi:type="editmodel:AttributeEditModel" name="cjt" id="capa1/ControladorDomini#cjt"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="condad" id="capa1/ControladorDomini#condad"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="congres" id="capa1/ControladorDomini#congres"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="407,400">
+      <children xsi:type="editmodel:MethodEditModel" name="AfegirTemaaCom" id="capa1/ControladorDomini#AfegirTemaaCom(Lcapa2.Comunicacio;Lcapa2.Tema;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Afegircom" id="capa1/ControladorDomini#Afegircom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CarregarHorariXML" id="capa1/ControladorDomini#CarregarHorariXML(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CrAutor" id="capa1/ControladorDomini#CrAutor(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CrComunicacio" id="capa1/ControladorDomini#CrComunicacio(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CrTema" id="capa1/ControladorDomini#CrTema(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CrTemps" id="capa1/ControladorDomini#CrTemps(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Eliminarcom" id="capa1/ControladorDomini#Eliminarcom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GenCongres" id="capa1/ControladorDomini#GenCongres(Lcapa2.Temps;Lcapa2.Temps;III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlistaAutors" id="capa1/ControladorDomini#LlistaAutors()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlistaCom" id="capa1/ControladorDomini#LlistaCom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LlistaTemes" id="capa1/ControladorDomini#LlistaTemes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NumComCong" id="capa1/ControladorDomini#NumComCong()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Plenacong" id="capa1/ControladorDomini#Plenacong(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SetGrau" id="capa1/ControladorDomini#SetGrau(Lcapa2.Comunicacio;Lcapa2.Comunicacio;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TemesdeCom" id="capa1/ControladorDomini#TemesdeCom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="carregarcjt" id="capa1/ControladorDomini#carregarcjt(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="congres" id="capa1/ControladorDomini#congres()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getgrau" id="capa1/ControladorDomini#getgrau(Lcapa2.Comunicacio;Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardarcjt" id="capa1/ControladorDomini#guardarcjt(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="guardarhorarixml" id="capa1/ControladorDomini#guardarhorarixml(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="intercanviar" id="capa1/ControladorDomini#intercanviar(Lcapa2.Comunicacio;Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="modautor" id="capa1/ControladorDomini#modautor(Lcapa2.Autor;Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAutor" id="capa1/ControladorDomini#setAutor(Lcapa2.Comunicacio;Lcapa2.Autor;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setautor" id="capa1/ControladorDomini#setautor(Lcapa2.Autor;Lcapa2.Comunicacio;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/ControladorDomini->capa1/VMissatge" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="197,284"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VTemes" location="878,1690" size="231,348" id="capa1/VTemes" runTimeClassModel="com,gettitle(),jLabel,control,crAutor,VTemes(Ljava.lang.String;Lcapa2.Comunicacio;),cierrate(),getJList(),windowClosing(Ljava.awt.event.WindowEvent;),aceptar,getJScrollPane(),jList,initialize(Ljava.lang.String;),crTema,cancelar,serialVersionUID,jScrollPane">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,160">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VTemes#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VTemes#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="com" id="capa1/VTemes#com"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VTemes#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="crAutor" id="capa1/VTemes#crAutor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="crTema" id="capa1/VTemes#crTema"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VTemes#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList" id="capa1/VTemes#jList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jScrollPane" id="capa1/VTemes#jScrollPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VTemes#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="211,112">
+      <children xsi:type="editmodel:MethodEditModel" name="VTemes" id="capa1/VTemes#VTemes(Ljava.lang.String;Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VTemes#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList" id="capa1/VTemes#getJList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJScrollPane" id="capa1/VTemes#getJScrollPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VTemes#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VTemes#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VTemes#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VTemes->capa1/ControladorDomini" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="213,524"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VTemes->capa1/ControladorDomini" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,524"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VGenCongres1" location="1950,740" size="205,524" id="capa1/VGenCongres1" runTimeClassModel="jLabel4,jTextField,gettitle(),jLabel,jLabel1,jLabel3,jTextField3,getAceptar(),jLabel2,getJTextField2(),aceptar,initialize(Ljava.lang.String;),serialVersionUID,jTextField5,cancelar,control,getJTextField5(),getCancelar(),getJTextField3(),jTextField2,getJTextField(),cierrate(),getJTextField1(),windowClosing(Ljava.awt.event.WindowEvent;),VGenCongres1(Ljava.lang.String;),jTextField1,getJTextField4(),jTextField4">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,240">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VGenCongres1#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VGenCongres1#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VGenCongres1#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VGenCongres1#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="capa1/VGenCongres1#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel2" id="capa1/VGenCongres1#jLabel2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel3" id="capa1/VGenCongres1#jLabel3"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel4" id="capa1/VGenCongres1#jLabel4"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField" id="capa1/VGenCongres1#jTextField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField1" id="capa1/VGenCongres1#jTextField1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField2" id="capa1/VGenCongres1#jTextField2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name= jTextField3" id="capa1/VGenCongres1#jTextField3"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField4" id="capa1/VGenCongres1#jTextField4"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField5" id="capa1/VGenCongres1#jTextField5"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VGenCongres1#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,208">
+      <children xsi:type="editmodel:MethodEditModel" name="VGenCongres1" id="capa1/VGenCongres1#VGenCongres1(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VGenCongres1#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAceptar" id="capa1/VGenCongres1#getAceptar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCancelar" id="capa1/VGenCongres1#getCancelar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField" id="capa1/VGenCongres1#getJTextField()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField1" id="capa1/VGenCongres1#getJTextField1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField2" id="capa1/VGenCongres1#getJTextField2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField3" id="capa1/VGenCongres1#getJTextField3()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField4" id="capa1/VGenCongres1#getJTextField4()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField5" id="capa1/VGenCongres1#getJTextField5()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VGenCongres1#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VGenCongres1#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VGenCongres1#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VGenCongres1->capa1/ControladorDomini" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,447" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="427,77"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VGenCongres1->capa1/ControladorDomini" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,407" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="427,115"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="VMissatge" location="390,800" size="207,284" id="capa1/VMissatge" runTimeClassModel="getJContentPane(Ljava.lang.String;),jLabel,jLabel1,jLabel3,jButton,jContentPane,jLabel2,cierrate(),getJButton(),windowClosing(Ljava.awt.event.WindowEvent;),VMissatge(Ljava.lang.String;),initialize(Ljava.lang.String;),serialVersionUID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,112">
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton" id="capa1/VMissatge#jButton"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jContentPane" id="capa1/VMissatge#jContentPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VMissatge#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="capa1/VMissatge#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel2" id="capa1/VMissatge#jLabel2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel3" id="capa1/VMissatge#jLabel3"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VMissatge#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="187,96">
+      <children xsi:type="editmodel:MethodEditModel" name="VMissatge" id="capa1/VMissatge#VMissatge(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VMissatge#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJButton" id="capa1/VMissatge#getJButton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJContentPane" id="capa1/VMissatge#getJContentPane(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VMissatge#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VMissatge#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VLista" location="380,1170" size="205,444" id="capa1/VLista" runTimeClassModel="GetCrAutor(),setCom(Lcapa2.Comunicacio;),com,gettitle(),jLabel,control,getAceptar(),crAutor,getCancelar(),GetCrTema(),id,cierrate(),getJList(),getJScrollPane(),windowClosing(Ljava.awt.event.WindowEvent;),aceptar,jList,initialize(Ljava.lang.String;),crTema,VLista(Ljava.lang.String;),cancelar,serialVersionUID,jScrollPane">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,176">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VLista#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VLista#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="com" id="capa1/VLista#com"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VLista#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="crAutor" id="capa1/VLista#crAutor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="crTema" id="capa1/VLista#crTema"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="capa1/VLista#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VLista#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList" id="capa1/VLista#jList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jScrollPane" id="capa1/VLista#jScrollPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VLista#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,192">
+      <children xsi:type="editmodel:MethodEditModel" name="GetCrAutor" id="capa1/VLista#GetCrAutor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GetCrTema" id="capa1/VLista#GetCrTema()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="VLista" id="capa1/VLista#VLista(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VLista#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAceptar" id="capa1/VLista#getAceptar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCancelar" id="capa1/VLista#getCancelar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList" id="capa1/VLista#getJList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJScrollPane" id="capa1/VLista#getJScrollPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VLista#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VLista#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCom" id="capa1/VLista#setCom(Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VLista#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VLista->capa1/ControladorDomini" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="205,163" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,361"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VLista->capa1/ControladorDomini" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="205,221" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,281"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VCrearTema" location="1500,770" size="252,332" id="capa1/VCrearTema" runTimeClassModel="com,jTextField,gettitle(),jLabel,control,jLabel1,getAceptar(),getCancelar(),getJTextField(),cierrate(),windowClosing(Ljava.awt.event.WindowEvent;),aceptar,initialize(Ljava.lang.String;),cancelar,serialVersionUID,VCrearTema(Ljava.lang.String;Lcapa2.Comunicacio;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,128">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VCrearTema#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VCrearTema#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="com" id="capa1/VCrearTema#com"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VCrearTema#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VCrearTema#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="capa1/VCrearTema#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField" id="capa1/VCrearTema#jTextField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VCrearTema#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="232,128">
+      <children xsi:type="editmodel:MethodEditModel" name="VCrearTema" id="capa1/VCrearTema#VCrearTema(Ljava.lang.String;Lcapa2.Comunicacio;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VCrearTema#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAceptar" id="capa1/VCrearTema#getAceptar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCancelar" id="capa1/VCrearTema#getCancelar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField" id="capa1/VCrearTema#getJTextField()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VCrearTema#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VCrearTema#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VCrearTema#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VCrearTema->capa1/ControladorDomini" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,331" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="417,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VCrearTema->capa1/ControladorDomini" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,332" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="427,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VCrearCom" location="636,700" size="205,364" id="capa1/VCrearCom" runTimeClassModel="jTextField,gettitle(),jLabel,control,jLabel1,getAceptar(),getCancelar(),jLabel2,jTextField2,getJTextField(),getJTextField2(),cierrate(),VCrearCom(Ljava.lang.String;),aceptar,windowClosing(Ljava.awt.event.WindowEvent;),initialize(Ljava.lang.String;),cancelar,serialVersionUID">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VCrearCom#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VCrearCom#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VCrearCom#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VCrearCom#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel1" id="capa1/VCrearCom#jLabel1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel2" id="capa1/VCrearCom#jLabel2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField" id="capa1/VCrearCom#jTextField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTextField2" id="capa1/VCrearCom#jTextField2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VCrearCom#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,144">
+      <children xsi:type="editmodel:MethodEditModel" name="VCrearCom" id="capa1/VCrearCom#VCrearCom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VCrearCom#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAceptar" id="capa1/VCrearCom#getAceptar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCancelar" id="capa1/VCrearCom#getCancelar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField" id="capa1/VCrearCom#getJTextField()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTextField2" id="capa1/VCrearCom#getJTextField2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VCrearCom#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VCrearCom#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VCrearCom#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VCrearCom->capa1/ControladorDomini" source="//@children.9" target="//@children.3" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="204,364" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VCrearCom->capa1/ControladorDomini" source="//@children.9" target="//@children.3" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,364" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CarCong" location="490,1654" size="205,300" id="capa1/CarCong" runTimeClassModel="getGuardar(),guardar,gettitle(),control,jTable,getJTable(),jButton1,cierrate(),getJScrollPane(),windowClosing(Ljava.awt.event.WindowEvent;),initialize(Ljava.lang.String;),CarCong(Ljava.lang.String;),serialVersionUID,jScrollPane">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,96">
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/CarCong#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="guardar" id="capa1/CarCong#guardar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jButton1" id="capa1/CarCong#jButton1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jScrollPane" id="capa1/CarCong#jScrollPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jTable" id="capa1/CarCong#jTable"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/CarCong#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,128">
+      <children xsi:type="editmodel:MethodEditModel" name="CarCong" id="capa1/CarCong#CarCong(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/CarCong#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGuardar" id="capa1/CarCong#getGuardar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJScrollPane" id="capa1/CarCong#getJScrollPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJTable" id="capa1/CarCong#getJTable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/CarCong#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/CarCong#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/CarCong#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/CarCong->capa1/ControladorDomini" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="205,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,514"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/CarCong->capa1/ControladorDomini" source="//@children.10" target="//@children.3" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="195,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,514"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VRelcom" location="990,619" size="205,460" id="capa1/VRelcom" runTimeClassModel="getJList3(),VRelcom(Ljava.lang.String;),gettitle(),jLabel,control,getAceptar(),getJList2(),getCancelar(),cierrate(),getJList(),getJScrollPane(),windowClosing(Ljava.awt.event.WindowEvent;),aceptar,jList,initialize(Ljava.lang.String;),jList2,getJScrollPane2(),jScrollPane3,cancelar,serialVersionUID,getJScrollPane3(),jScrollPane2,jScrollPane,jList3">
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,176">
+      <children xsi:type="editmodel:AttributeEditModel" name="aceptar" id="capa1/VRelcom#aceptar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cancelar" id="capa1/VRelcom#cancelar"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="control" id="capa1/VRelcom#control"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jLabel" id="capa1/VRelcom#jLabel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList" id="capa1/VRelcom#jList"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList2" id="capa1/VRelcom#jList2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jList3" id="capa1/VRelcom#jList3"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jScrollPane" id="capa1/VRelcom#jScrollPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jScrollPane2" id="capa1/VRelcom#jScrollPane2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="jScrollPane3" id="capa1/VRelcom#jScrollPane3"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="capa1/VRelcom#serialVersionUID"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="185,208">
+      <children xsi:type="editmodel:MethodEditModel" name="VRelcom" id="capa1/VRelcom#VRelcom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cierrate" id="capa1/VRelcom#cierrate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAceptar" id="capa1/VRelcom#getAceptar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCancelar" id="capa1/VRelcom#getCancelar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList" id="capa1/VRelcom#getJList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList2" id="capa1/VRelcom#getJList2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJList3" id="capa1/VRelcom#getJList3()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJScrollPane" id="capa1/VRelcom#getJScrollPane()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJScrollPane2" id="capa1/VRelcom#getJScrollPane2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getJScrollPane3" id="capa1/VRelcom#getJScrollPane3()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="gettitle" id="capa1/VRelcom#gettitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="capa1/VRelcom#initialize(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="capa1/VRelcom#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="capa1/VRelcom->capa1/ControladorDomini" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,460" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="capa1/VRelcom->capa1/ControladorDomini" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,460" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="312,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>
